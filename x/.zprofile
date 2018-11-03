@@ -1,6 +1,6 @@
 # Enviroment variables
 export ZSH="$HOME/.oh-my-zsh"
-export LC_ALL=en_US.UTF-8
+export LC_ALL=de_DE.UTF-8
 export TERMINAL=terminator
 export PAGER=less
 export VISUAL=emacs
@@ -30,9 +30,9 @@ export npm_config_prefix=~/.node_modules
 export PATH=$HOME/.local/bin:$PATH
 
 # startx when logged in
-#if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
-#  exec startx
-#fi
+if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+  exec startx
+fi
 
 # Go
 export PATH="$PATH:$HOME/go/bin"
