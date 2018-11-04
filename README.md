@@ -27,10 +27,10 @@ Use GNU stow to symlink them - [here](http://brandon.invergo.net/news/2012-05-26
 
 
 ### Screenshots
-![1](dotfiles/screenshots(dont stow)/2018-11-04-172644_2560x1440_scrot.png)
-![2](dotfiles/screenshots(dont stow)/2018-11-04-172657_2560x1440_scrot.png)
-![3](dotfiles/screenshots(dont stow)/2018-11-04-172705_2560x1440_scrot.png)
-![4](dotfiles/screenshots(dont stow)/2018-11-04-172709_2560x1440_scrot.png)
+![1](https://github.com/Conor-Burns/dotfiles/screenshots(dont stow)/2018-11-04-172644_2560x1440_scrot.png)
+![2](https://github.com/Conor-Burns/dotfiles/screenshots(dont stow)/2018-11-04-172657_2560x1440_scrot.png)
+![3](https://github.com/Conor-Burns/dotfiles/screenshots(dont stow)/2018-11-04-172705_2560x1440_scrot.png)
+![4](https://github.com/Conor-Burns/dotfiles/screenshots(dont stow)/2018-11-04-172709_2560x1440_scrot.png)
 
 License
 ----
