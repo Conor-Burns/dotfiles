@@ -128,8 +128,8 @@ for_window [class="^Steam$" title="^Screenshot Uploader$"] floating enable
 for_window [class="^Steam$" title="^Steam Guard - Computer Authorization Required$"] floating enable
 for_window [title="^Steam Keyboard$"] floating enable
 
-#betterlock
-bindsym $mod+shift+x exec betterlockscreen -l blur
+#i3lock-fancy-rapid
+bindsym $mod+shift+x exec i3lock-fancy-rapid 5 3
 
 # Multimedia Keys
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
@@ -194,7 +194,7 @@ bar
 	position top
 	status_command i3blocks
   i3bar_command i3bar -t
-	font pango: SauceCodePro Nerd Font Black 10
+	font pango: Hack Nerd Font Black 10
 	colors
 	{
                         # Border	# Background	# Text
@@ -210,5 +210,4 @@ bar
 exec --no-startup-id setxkbmap -model pc105 -layout de # Set the keyboard layout
 exec --no-startup-id xbindkeys # Load keyboard shortcuts
 exec --no-startup-id compton -f # Compositor for window transparency
-exec_always --no-startup-id betterlockscreen -u ~/.wallpapers/The_Matterhorn-581511.jpg #Lockscreen  
 exec_always --no-startup-id wal -g -i ~/.wallpapers/ #Theme
