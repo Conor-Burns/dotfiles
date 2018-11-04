@@ -6,8 +6,6 @@ new_window pixel
 
 # i3-gaps
 gaps inner 20
-gaps outer 20
-for_window [class="^.*"] border pixel 5
 
 # Font for window titles.
 font pango:Hack Nerd Font Mono 11
@@ -147,7 +145,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # Exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit i3?' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # Resize window (you can also use the mouse for that)
 mode "resize"
@@ -207,8 +205,12 @@ bar
 }
 
 # Startup programs
+exec_always --no-startup-id feh --bg-scale ~/.wallpapers/The_Matterhorn-581511.jpg # Wallpaper
 exec --no-startup-id setxkbmap -model pc105 -layout de # Set the keyboard layout
 exec --no-startup-id xbindkeys # Load keyboard shortcuts
 exec --no-startup-id compton -f # Compositor for window transparency
+exec --no-startup-id emacs --daemon=instance1 # Daemonize Emacs
+exec --no-startup-id notify-send "Welcome back Conor!" -i ~/.images/happy.png # Greeting on startup
+exec --no-startup-id compton  
 exec_always --no-startup-id betterlockscreen -u ~/.wallpapers/The_Matterhorn-581511.jpg #Lockscreen  
-exec_always --no-startup-id wal -g -i ~/.wallpapers/ #Theme
+exec_always --no-startup-id wal -R #Theme

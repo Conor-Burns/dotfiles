@@ -99,3 +99,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 eval $(thefuck --alias --enable-experimental-instant-mode)
+
+(cat ~/.cache/wal/sequences &)
+
+# To add support for TTYs this line can be optionally added.
+source ~/.cache/wal/colors-tty.sh

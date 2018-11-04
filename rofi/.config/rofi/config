@@ -6,4 +6,4 @@ rofi.drun-icon-theme: Pop
 rofi.show-icons: true
 rofi.sidebar-mode: true
 rofi.m: -4
-rofi.theme: andrea
+rofi.theme: sidebar
