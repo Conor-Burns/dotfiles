@@ -7,10 +7,10 @@ new_window pixel
 # i3-gaps
 gaps inner 20
 gaps outer 20
-for_window [class="^.*"] border pixel 5
+for_window [class="^.*"] border pixel 2
 
 # Font for window titles.
-font pango:Hack Nerd Font Mono 11
+font pango:Inconsolata 11
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -72,16 +72,16 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # Name the workspaces
-set $workspace1 "    "
-set $workspace2 "    "
-set $workspace3 "    "
-set $workspace4 "    "
-set $workspace5 "    "
-set $workspace6 "    "
-set $workspace7 "    "
-set $workspace8 "  ♫  "
-set $workspace9 "    "
-set $workspace0 "    "
+set $workspace1 "1:    "
+set $workspace2 "2:    "
+set $workspace3 "3:    "
+set $workspace4 "4:    "
+set $workspace5 "5:    "
+set $workspace6 "6:    "
+set $workspace7 "7:    "
+set $workspace8 "8:  ♫  "
+set $workspace9 "9:    "
+set $workspace0 "0:    "
 
 # Switch to workspace
 bindsym $mod+1 workspace $workspace1
@@ -130,6 +130,9 @@ for_window [title="^Steam Keyboard$"] floating enable
 
 #i3lock-fancy-rapid
 bindsym $mod+shift+x exec i3lock-fancy-rapid 5 3
+
+#ranger
+bindsym $mod+c exec terminator -e ~/.config/ranger/launch.sh
 
 # Multimedia Keys
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
@@ -191,9 +194,10 @@ client.placeholder          $magenta $magenta   $silver  $magenta
 # Start i3blocks to display a workspace bar
 bar
 {
+	strip_workspace_numbers yes
 	position top
 	status_command i3blocks
-  i3bar_command i3bar -t
+	i3bar_command i3bar -t
 	font pango: Hack Nerd Font Black 10
 	colors
 	{
@@ -210,4 +214,3 @@ bar
 exec --no-startup-id setxkbmap -model pc105 -layout de # Set the keyboard layout
 exec --no-startup-id xbindkeys # Load keyboard shortcuts
 exec --no-startup-id compton -f # Compositor for window transparency
-exec_always --no-startup-id wal -g -i ~/.wallpapers/ #Theme
