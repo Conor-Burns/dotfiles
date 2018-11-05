@@ -2,7 +2,7 @@
   enabled_plugins = TerminatorThemes, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
   inactive_color_offset = 1.0
   tab_position = hidden
-  title_font = 3270Medium Nerd Font Bold 14
+  title_font = Hack Nerd Font Mono 14
   title_inactive_bg_color = "#263647"
   title_inactive_fg_color = "#ff0000"
   title_receive_bg_color = "#c90047"

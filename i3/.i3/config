@@ -212,5 +212,4 @@ bar
 
 # Startup programs
 exec --no-startup-id setxkbmap -model pc105 -layout de # Set the keyboard layout
-exec --no-startup-id xbindkeys # Load keyboard shortcuts
 exec --no-startup-id compton -f # Compositor for window transparency
