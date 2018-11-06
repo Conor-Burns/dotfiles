@@ -81,7 +81,7 @@ set $workspace6 "6:    "
 set $workspace7 "7:    "
 set $workspace8 "8:  ♫  "
 set $workspace9 "9:    "
-set $workspace0 "0:    "
+set $workspace0 "10:    "
 
 # Switch to workspace
 bindsym $mod+1 workspace $workspace1
@@ -142,6 +142,9 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute s
 bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
+
+#screenshot
+bindsym $mod+Shift+s exec scrot
 
 # Reload the configuration file
 bindsym $mod+Shift+c reload
@@ -212,4 +215,4 @@ bar
 
 # Startup programs
 exec --no-startup-id setxkbmap -model pc105 -layout de # Set the keyboard layout
-exec --no-startup-id compton -f # Compositor for window transparency
+exec --no-startup-id compton --config ~/.i3/compton.conf

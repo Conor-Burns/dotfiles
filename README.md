@@ -749,10 +749,11 @@ zstd
 </details>
 
 ## Screenshots
-![1](https://i.postimg.cc/c4HTcg2k/2018-11-04-172644-2560x1440-scrot.png)
-![1](https://i.postimg.cc/c4bhk1Nx/2018-11-04-172657-2560x1440-scrot.png)
-![1](https://i.postimg.cc/YS1xS1L0/2018-11-04-172705-2560x1440-scrot.png)
-![1](https://i.postimg.cc/25pwmH6g/2018-11-04-172709-2560x1440-scrot.png)
+
+![Alt text](/screenshots/1.png?raw=true "1")
+![Alt text](/screenshots/2.png?raw=true "2")
+![Alt text](/screenshots/3.png?raw=true "3")
+![Alt text](/screenshots/4.png?raw=true "4")
 
 License
 ----

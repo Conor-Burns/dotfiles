@@ -14,6 +14,8 @@ else
     export EDITOR='emacs'
 fi
 
+export QT_QPA_PLATFORMTHEME=gtk2
+
 # Ruby gems
 #PATH="$PATH:$(ruby -e 'print Gem.user_dir')/bin"
 #export GEM_HOME=$HOME/.gem
