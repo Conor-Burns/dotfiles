@@ -754,6 +754,8 @@ zstd
 ![Alt text](/screenshots/2.png?raw=true "2")
 ![Alt text](/screenshots/3.png?raw=true "3")
 ![Alt text](/screenshots/4.png?raw=true "4")
+![Alt text](/screenshots/5.png?raw=true "5")
+![Alt text](/screenshots/6.png?raw=true "6")
 
 License
 ----
@@ -761,4 +763,3 @@ License
 MIT
 
 [Conor](https://conor-burns.com)
-
