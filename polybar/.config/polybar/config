@@ -21,9 +21,9 @@ spacing = 2
 padding-right = 5
 module-margin = 4
 
-font-0 = Hack Nerd Font:size=12
+font-0 = FuraCode Nerd Font:size=12
 
-modules-left = powermenu spotify
+modules-left = i3
 modules-right = volume wired-network date
 modules-center = title
 
@@ -44,11 +44,11 @@ padding-right = 4
 module-margin-left = 0
 module-margin-right = 6
 
-font-0 = Hack Nerd Font:size=12
-font-1 = Weather Icons:size=12;1
+font-0 = FuraCode Nerd Font:size=12
 
-modules-left = i3
-modules-right = openweathermap ssh ping updates cpu memory temperature
+modules-left = powermenu openweathermap ssh ping updates
+modules-right = cpu memory temperature filesystem
+modules-center = spotify
 
 [module/i3]
 type = internal/i3
@@ -66,7 +66,7 @@ strip-wsnumbers = true
 format = <label-state><label-mode>
 
 label-mode = %mode%
-label-focused = %icon%%name% 
+label-focused = %icon%%name%
 label-focused-background = ${colors.bg}
 label-focused-foreground = ${colors.fg}
 label-unfocused-foreground = ${colors.icon}
@@ -181,7 +181,7 @@ menu-1-1 = reboot
 menu-1-1-exec = terminator -e 'sudo reboot'
 
 menu-2-0 = power off
-menu-2-0-exec = terminator -e 'sudo poweroff'
+menu-2-0-exec = terminator -e 'sudo shutdown now'
 menu-2-1 = cancel
 menu-2-1-exec = menu-open-0
 
@@ -219,5 +219,10 @@ interval = 10
 type = custom/script
 exec = ~/.config/polybar/ssh.sh
 interval = 5
+
+[module/filesystem]
+type = internal/fs
+mount-0 = /
+interval = 10
 
 ; vim:ft=dosini

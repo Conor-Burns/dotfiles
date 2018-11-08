@@ -10,7 +10,7 @@ gaps outer 20
 for_window [class="^.*"] border pixel 1
 
 # Font for window titles.
-font pango:Inconsolata 11
+font pango:FuraCode Nerd Font 11
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
