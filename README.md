@@ -29,721 +29,832 @@ Use GNU stow to symlink them - [here](http://brandon.invergo.net/news/2012-05-26
 <details><summary>Spoiler</summary>
 <p>
 acl
-adwaita-icon-theme
-alpm_octopi_utils
-alsa-lib
-alsa-plugins
-alsa-utils
-amd-ucode
-aom
-apm
-archlinux-keyring
-argon2
-artwiz-fonts
-asciidoc
-aspell
-at-spi2-atk
-at-spi2-core
-atk
-atkmm
-atom
-attr
-audit
-autoconf
-autofs
-automake
-avahi
-babl
-bash
-bash-completion
-bc
-bind-tools
-binutils
-bison
-blas
-bleachbit
-bluez
-bluez-libs
-boost-libs
-brotli
-btrfs-progs
-bubblewrap
-bzip2
-c-ares
-ca-certificates
-ca-certificates-mozilla
-ca-certificates-utils
-cairo
-cairomm
-cantarell-fonts
-cava
-ccid
-check
-clucene
-colord
-compton
-confuse
-coreutils
-cracklib
-cronie
-cryptsetup
-cups
-cups-filters
-cups-pdf
-curl
-db
-dbus
-dbus-glib
-dconf
-desktop-file-utils
-device-mapper
-dhcpcd
-dialog
-diffutils
-dmidecode
-dnssec-anchors
-docbook-xml
-docbook-xsl
-dosfstools
-double-conversion
-e2fsprogs
-efibootmgr
-efivar
-electron
-enchant
-evolution
-evolution-data-server
-exfat-utils
-exiv2
-expat
-fakeroot
-feh
-ffmpeg
-fftw
-file
-filesystem
-findutils
-firefox
-flac
-flex
-font-bh-ttf
-font-bitstream-speedo
-fontconfig
-freetype2
-fribidi
-fuse-common
-fuse2
-fuse3
-fuseiso
-gawk
-gc
-gcc
-gcc-libs
-gcr
-gd
-gdbm
-gdk-pixbuf2
-gegl
-gengetopt
-geoclue2
-geocode-glib
-geoip
-geoip-database
-gettext
-ghostscript
-giflib
-gimp
-gimp-help-de
-git
-glib-networking
-glib2
-glib2-docs
-glibc
-glibmm
-glu
-gmp
-gnome-autoar
-gnome-desktop
-gnome-online-accounts
-gnupg
-gnutls
-gobject-introspection-runtime
-gparted
-gpgme
-gpm
-gptfdisk
-graphite
-graphviz
-grep
-groff
-grub
-gsettings-desktop-schemas
-gsfonts
-gsl
-gsm
-gst-plugins-base-libs
-gstreamer
-gtk-doc
-gtk-engine-murrine
-gtk-engines
-gtk-update-icon-cache
-gtk2
-gtk3
-gtkmm
-gtkspell
-gtkspell3
-gts
-guile
-gzip
-harfbuzz
-harfbuzz-icu
-haveged
-help2man
-hicolor-icon-theme
-hidapi
-hspell
-http-parser
-hunspell
-hunspell-en_US
-hwids
-hyphen
-i3-gaps
-i3blocks
-i3lock
-i3lock-fancy-rapid-git
-i3status
-iana-etc
-icu
-ijs
-ilmbase
-imagemagick
-imlib2
-inetutils
-iniparser
-inkscape
-intel-tbb
-intel-ucode
-iproute2
-iptables
-iputils
-iso-codes
-jack
-jansson
-jasper
-jbig2dec
-jfsutils
-js52
-json-c
-json-glib
-kbd
-keyutils
-kmod
-krb5
-l-smash
-lame
-lapack
-lcms2
-ldns
-lensfun
-less
-libabw
-libaio
-libarchive
-libass
-libassuan
-libasyncns
-libatomic_ops
-libavc1394
-libbluray
-libcanberra
-libcap
-libcap-ng
-libcdr
-libcmis
-libconfig
-libcroco
-libcryptui
-libcups
-libdaemon
-libdatrie
-libde265
-libdrm
-libe-book
-libedit
-libelf
-libepoxy
-libepubgen
-libetonyek
-libev
-libevdev
-libevent
-libexif
-libexttextcat
-libffi
-libfontenc
-libfreehand
-libgcrypt
-libgdata
-libgexiv2
-libglade
-libglvnd
-libgpg-error
-libgsf
-libgudev
-libgusb
-libgweather
-libheif
-libibus
-libical
-libice
-libid3tag
-libidn
-libidn2
-libiec61883
-libinput
-libixion
-libjpeg-turbo
-libkeybinder3
-libksba
-liblangtag
-libldap
-liblouis
-liblqr
-libmagick
-libmagick6
-libmm-glib
-libmng
-libmnl
-libmodplug
-libmpc
-libmspub
-libmwaw
-libmypaint
-libndp
-libnewt
-libnftnl
-libnghttp2
-libnl
-libnm
-libnm-glib
-libnotify
-libnsl
-libnumbertext
-liboauth
-libodfgen
-libogg
-libomxil-bellagio
-liborcus
-libpagemaker
-libpaper
-libpcap
-libpciaccess
-libpgm
-libphonenumber
-libpipeline
-libpng
-libproxy
-libpsl
-libpst
-libpulse
-libqxp
-libraqm
-libraw
-libraw1394
-libreoffice-fresh
-libreoffice-fresh-de
-librevenge
-librsvg
-libsamplerate
-libsasl
-libsass
-libseccomp
-libsecret
-libsigc++
-libsm
-libsndfile
-libsodium
-libsoup
-libsoxr
-libspiro
-libssh
-libssh2
-libstaroffice
-libsystemd
-libtasn1
-libteam
-libthai
-libtheora
-libtiff
-libtirpc
-libtommath
-libtool
-libu2f-host
-libu2f-server
-libunistring
-libunwind
-libusb
-libutil-linux
-libuv
-libva
-libvdpau
-libvisio
-libvoikko
-libvorbis
-libvpx
-libwacom
-libwebp
-libwmf
-libwpd
-libwpg
-libwps
-libx11
-libxau
-libxaw
-libxcb
-libxcomposite
-libxcursor
-libxdamage
-libxdg-basedir
-libxdmcp
-libxext
-libxfixes
-libxfont2
-libxft
-libxi
-libxinerama
-libxkbcommon
-libxkbcommon-x11
-libxkbfile
-libxml2
-libxmu
-libxpm
-libxrandr
-libxrender
-libxshmfence
-libxslt
-libxss
-libxt
-libxtst
-libxv
-libxvmc
-libxxf86vm
-libytnef
-libzmf
-licenses
-linux
-linux-api-headers
-linux-firmware
-linux-headers
-llvm-libs
-lm_sensors
-lmdb
-logrotate
-lpsolve
-lsof
-lua
-lua52
-lvm2
-lxappearance
-lz4
-lzo
-m4
-mailcap
-make
-man-db
-man-pages
-mdadm
-mesa
-metis
-minizip
-mkinitcpio
-mkinitcpio-busybox
-mozilla-common
-mpfr
-mtdev
-mypaint-brushes
-nano
-ncurses
-neofetch
-neon
-nerd-fonts-hack
-nerd-fonts-source-code-pro
-netctl
-nettle
-networkmanager
-nmap
-node-gyp
-nodejs
-npm
-npth
-nspr
-nss
-ntfs-3g
-octopi
-oomox
-opencore-amr
-openexr
-openjpeg2
-openresolv
-openssh
-openssl
-openssl-1.0
-optipng
-opus
-orc
-os-prober
-p11-kit
-p7zip
-pacman
-pacman-contrib
-pacman-mirrorlist
-pacutils
-pam
-pam_u2f
-pambase
-pango
-pangomm
-papirus-icon-theme
-parallel
-parted
-patch
-pciutils
-pcre
-pcre2
-pcsclite
-perl
-perl-data-dump
-perl-encode-locale
-perl-error
-perl-file-listing
-perl-html-parser
-perl-html-tagset
-perl-http-cookies
-perl-http-daemon
-perl-http-date
-perl-http-message
-perl-http-negotiate
-perl-io-html
-perl-io-socket-ssl
-perl-json
-perl-libwww
-perl-locale-gettext
-perl-log-message
-perl-log-message-simple
-perl-lwp-mediatypes
-perl-lwp-protocol-https
-perl-mailtools
-perl-net-http
-perl-net-ssleay
-perl-term-readline-gnu
-perl-term-ui
-perl-timedate
-perl-try-tiny
-perl-uri
-perl-www-robotrules
-pinentry
-pipes.sh
-pixman
-pkgconf
-pkgfile
-playerctl
-polkit
-poppler
-poppler-data
-poppler-glib
-popt
-potrace
-procps-ng
-protobuf
-psmisc
-pulseaudio
-pulseaudio-alsa
-pulseaudio-bluetooth
-pulseaudio-equalizer
-pygobject-devel
-pygobject2-devel
-pygtk
-pyqt5-common
-python
-python-anytree
-python-appdirs
-python-asn1crypto
-python-cffi
-python-click
-python-colorama
-python-cryptography
-python-dbus
-python-dbus-common
-python-decorator
-python-fido2
-python-gobject
-python-idna
-python-lxml
-python-packaging
-python-pillow
-python-ply
-python-psutil
-python-pycparser
-python-pygments
-python-pyopenssl
-python-pyotherside
-python-pyparsing
-python-pyqt5
-python-pyscard
-python-pyte
-python-pyusb
-python-pywal
-python-setuptools
-python-sip
-python-sip-pyqt5
-python-six
-python-wcwidth
-python2
-python2-cairo
-python2-dbus
-python2-gobject
-python2-gobject2
-python2-psutil
-qpdf
-qt5-base
-qt5-declarative
-qt5-quickcontrols
-qt5-svg
-qt5-xmlpatterns
-qtermwidget
-ranger
-raptor
-rasqal
-re2
-readline
-redland
-reiserfsprogs
-rest
-rofi
-rsync
-rtkit
-run-parts
-s-nail
-sassc
-sbc
-sdl
-sdl2
-sdl_ttf
-sed
-semver
-shadow
-shared-mime-info
-slang
-snappy
-sound-theme-freedesktop
-source-highlight
-speedtest-cli
-speex
-speexdsp
-sqlite
-startup-notification
-stow
-sudo
-suitesparse
-swig
-sysfsutils
-systemd
-systemd-sysvcompat
-tar
-tdb
-terminator
-texinfo
-thefuck
-thin-provisioning-tools
-traceroute
-transmission-gtk
-trizen
-tslib
-ttf-bitstream-vera
-ttf-cheapskate
-ttf-dejavu
-ttf-fira-code
-ttf-font-awesome
-ttf-hack
-ttf-inconsolata
-ttf-liberation
-tzdata
-unrar
-unzip
-usbutils
-util-linux
-v4l-utils
-vala
-vi
-vid.stab
-vte-common
-vte3
-w3m
-wayland
-wayland-protocols
-webkit2gtk
-webrtc-audio-processing
-wget
-which
-wireless_tools
-woff2
-wpa_supplicant
-x264
-x265
-xcb-proto
-xcb-util
-xcb-util-cursor
-xcb-util-image
-xcb-util-keysyms
-xcb-util-renderutil
-xcb-util-wm
-xcb-util-xrm
-xdg-user-dirs
-xdg-utils
-xf86-input-elographics
-xf86-input-evdev
-xf86-input-keyboard
-xf86-input-libinput
-xf86-input-mouse
-xf86-video-intel
-xf86-video-vesa
-xfsprogs
-xkeyboard-config
-xmlsec
-xorg-bdftopcf
-xorg-font-util
-xorg-font-utils
-xorg-fonts-alias
-xorg-fonts-encodings
-xorg-fonts-type1
-xorg-mkfontdir
-xorg-mkfontscale
-xorg-server
-xorg-server-common
-xorg-setxkbmap
-xorg-xauth
-xorg-xinit
-xorg-xkbcomp
-xorg-xmodmap
-xorg-xrandr
-xorg-xrdb
-xorg-xset
-xorgproto
-xvidcore
-xz
-yajl
-yubico-c
-yubico-c-client
-yubico-yubioath-desktop
-yubikey-manager
-yubikey-personalization
-zeromq
-zip
-zita-alsa-pcmi
-zita-resampler
-zlib
-zsh
-zstd
+   adwaita-icon-theme
+                     alpm_octopi_utils
+                                      alsa-lib
+                                              alsa-plugins
+                                                          alsa-utils
+                                                                    amd-ucode
+                                                                             aom
+                                                                                apm
+                                                                                   archlinux-keyring
+                                                                                                    argon2
+                                                                                                          artwiz-fonts
+                                                                                                                      asciidoc
+                                                                                                                              aspell
+                                                                                                                                    at-spi2-atk
+                                                                                                                                               at-spi2-core
+                                                                                                                                                           atk
+                                                                                                                                                              atkmm
+                                                                                                                                                                   atom
+                                                                                                                                                                       attica
+                                                                                                                                                                             attr
+                                                                                                                                                                                 audit
+                                                                                                                                                                                      autoconf
+                                                                                                                                                                                              autofs
+                                                                                                                                                                                                    automake
+                                                                                                                                                                                                            avahi
+                                                                                                                                                                                                                 babl
+                                                                                                                                                                                                                     bash
+                                                                                                                                                                                                                         bash-completion
+                                                                                                                                                                                                                                        bc
+                                                                                                                                                                                                                                          bind-tools
+                                                                                                                                                                                                                                                    binutils
+     bison
+          blas
+              bleachbit
+                       bluez
+                            bluez-libs
+                                      boost-libs
+                                                brotli
+                                                      btrfs-progs
+                                                                 bubblewrap
+                                                                           bzip2
+                                                                                c-ares
+                                                                                      ca-certificates
+                                                                                                     ca-certificates-mozilla
+                                                                                                                            ca-certificates-utils
+                                                                                                                                                 cairo
+                                                                                                                                                      cairomm
+                                                                                                                                                             cantarell-fonts
+                                                                                                                                                                            cava
+                                                                                                                                                                                ccid
+                                                                                                                                                                                    cdparanoia
+                                                                                                                                                                                              check
+                                                                                                                                                                                                   clang
+                                                                                                                                                                                                        clucene
+                                                                                                                                                                                                               cmake
+                                                                                                                                                                                                                    cmatrix
+                                                                                                                                                                                                                           colord
+                                                                                                                                                                                                                                 compiler-rt
+                                                                                                                                                                                                                                            compton
+                                                                                                                                                                                                                                                   confuse
+   coreutils
+            cracklib
+                    cronie
+                          cryptsetup
+                                    cups
+                                        cups-filters
+                                                    cups-pdf
+                                                            curl
+                                                                db
+                                                                  dbus
+                                                                      dbus-glib
+                                                                               dconf
+                                                                                    dep
+                                                                                       desktop-file-utils
+                                                                                                         device-mapper
+                                                                                                                      dhcpcd
+                                                                                                                            dialog
+                                                                                                                                  diffutils
+                                                                                                                                           discord
+                                                                                                                                                  dmidecode
+                                                                                                                                                           dmraid
+                                                                                                                                                                 dnssec-anchors
+                                                                                                                                                                               docbook-xml
+                                                                                                                                                                                          docbook-xsl
+                                                                                                                                                                                                     dosfstools
+                                                                                                                                                                                                               double-conversion
+                                                                                                                                                                                                                                e2fsprogs
+                                                                                                                                                                                                                                         efibootmgr
+                                                                                                                                                                                                                                                   efivar
+  electron
+          enchant
+                 evolution
+                          evolution-data-server
+                                               exfat-utils
+                                                          exiv2
+                                                               expat
+                                                                    extra-cmake-modules
+                                                                                       fakeroot
+                                                                                               feh
+                                                                                                  ffmpeg
+                                                                                                        fftw
+                                                                                                            file
+                                                                                                                filesystem
+                                                                                                                          findutils
+                                                                                                                                   firefox
+                                                                                                                                          flac
+                                                                                                                                              flex
+                                                                                                                                                  font-bh-ttf
+                                                                                                                                                             font-bitstream-speedo
+                                                                                                                                                                                  fontconfig
+                                                                                                                                                                                            freetype2
+                                                                                                                                                                                                     fribidi
+                                                                                                                                                                                                            fuse-common
+                                                                                                                                                                                                                       fuse2
+                                                                                                                                                                                                                            fuse3
+                                                                                                                                                                                                                                 fuseiso
+                                                                                                                                                                                                                                        gawk
+                                                                                                                                                                                                                                            gc
+                                                                                                                                                                                                                                              gcc
+                                                                                                                                                                                                                                                 gcc-libs
+  gconf
+       gcr
+          gd
+            gdbm
+                gdk-pixbuf2
+                           gegl
+                               gengetopt
+                                        geoclue2
+                                                geocode-glib
+                                                            geoip
+                                                                 geoip-database
+                                                                               gettext
+                                                                                      ghostscript
+                                                                                                 giblib
+                                                                                                       giflib
+                                                                                                             gimp
+                                                                                                                 gimp-help-de
+                                                                                                                             git
+                                                                                                                                glib-networking
+                                                                                                                                               glib2
+                                                                                                                                                    glib2-docs
+                                                                                                                                                              glibc
+                                                                                                                                                                   glibmm
+                                                                                                                                                                         glu
+                                                                                                                                                                            gmp
+                                                                                                                                                                               gnome-autoar
+                                                                                                                                                                                           gnome-desktop
+                                                                                                                                                                                                        gnome-online-accounts
+                                                                                                                                                                                                                             gnupg
+                                                                                                                                                                                                                                  gnutls
+                                                                                                                                                                                                                                        go
+                                                                                                                                                                                                                                          gobject-introspection-runtime
+                gparted
+                       gpgme
+                            gpm
+                               gptfdisk
+                                       graphene
+                                               graphite
+                                                       graphviz
+                                                               grep
+                                                                   groff
+                                                                        grub
+                                                                            gsettings-desktop-schemas
+                                                                                                     gsfonts
+                                                                                                            gsl
+                                                                                                               gsm
+                                                                                                                  gst-plugins-base
+                                                                                                                                  gst-plugins-base-libs
+                                                                                                                                                       gstreamer
+                                                                                                                                                                gtk-doc
+                                                                                                                                                                       gtk-engine-murrine
+                                                                                                                                                                                         gtk-engines
+                                                                                                                                                                                                    gtk-update-icon-cache
+                                                                                                                                                                                                                         gtk2
+                                                                                                                                                                                                                             gtk3
+                                                                                                                                                                                                                                 gtkmm
+                                                                                                                                                                                                                                      gtkspell
+                                                                                                                                                                                                                                              gtkspell3
+                                                                                                                                                                                                                                                      gtop
+   gts
+      gucharmap
+               guile
+                    gvfs
+                        gzip
+                            harfbuzz
+                                    harfbuzz-icu
+                                                haveged
+                                                       help2man
+                                                               hicolor-icon-theme
+                                                                                 hidapi
+                                                                                       hspell
+                                                                                             http-parser
+                                                                                                        hunspell
+                                                                                                                hunspell-en_US
+                                                                                                                              hwids
+                                                                                                                                   hyphen
+                                                                                                                                         i3-gaps
+                                                                                                                                                i3blocks
+                                                                                                                                                        i3lock
+                                                                                                                                                              i3lock-fancy-rapid-git
+                                                                                                                                                                                    i3status
+                                                                                                                                                                                            iana-etc
+                                                                                                                                                                                                    icu
+                                                                                                                                                                                                       ijs
+                                                                                                                                                                                                          ilmbase
+                                                                                                                                                                                                                 imagemagick
+                                                                                                                                                                                                                            imlib2
+                                                                                                                                                                                                                                  inetutils
+                                                                                                                                                                                                                                           iniparser
+                                                                                                                                                                                                                                                    inkscape
+     intel-tbb
+              intel-ucode
+                         iproute2
+                                 iptables
+                                         iputils
+                                                iso-codes
+                                                         jack
+                                                             jansson
+                                                                    jasper
+                                                                          jbig2dec
+                                                                                  jfsutils
+                                                                                          jq
+                                                                                            js52
+                                                                                                json-c
+                                                                                                      json-glib
+                                                                                                               jsoncpp
+                                                                                                                      kactivities
+                                                                                                                                 karchive
+                                                                                                                                         kauth
+                                                                                                                                              kbd
+                                                                                                                                                 kbookmarks
+                                                                                                                                                           kcodecs
+                                                                                                                                                                  kcompletion
+                                                                                                                                                                             kconfig
+                                                                                                                                                                                    kconfigwidgets
+                                                                                                                                                                                                  kcoreaddons
+                                                                                                                                                                                                             kcrash
+                                                                                                                                                                                                                   kdbusaddons
+                                                                                                                                                                                                                              kdeclarative
+                                                                                                                                                                                                                                          kdesu
+                                                                                                                                                                                                                                               keyutils
+                                                                                                                                                                                                                                                      kglobalaccel
+           kguiaddons
+                     ki18n
+                          kiconthemes
+                                     kio
+                                        kirigami2
+                                                 kitemviews
+                                                           kjobwidgets
+                                                                      kmod
+                                                                          knotifications
+                                                                                        kpackage
+                                                                                                kpty
+                                                                                                    krb5
+                                                                                                        kservice
+                                                                                                                ktextwidgets
+                                                                                                                            kwallet
+                                                                                                                                   kwayland
+                                                                                                                                           kwidgetsaddons
+                                                                                                                                                         kwindowsystem
+                                                                                                                                                                      kxmlgui
+                                                                                                                                                                             l-smash
+                                                                                                                                                                                    lame
+                                                                                                                                                                                        lapack
+                                                                                                                                                                                              lcms2
+                                                                                                                                                                                                   ldns
+                                                                                                                                                                                                       lensfun
+                                                                                                                                                                                                              less
+                                                                                                                                                                                                                  libabw
+                                                                                                                                                                                                                        libaio
+                                                                                                                                                                                                                              libarchive
+                                                                                                                                                                                                                                        libass
+                                                                                                                                                                                                                                              libassuan
+                                                                                                                                                                                                                                                      libasyncns
+         libatasmart
+                    libatomic_ops
+                                 libavc1394
+                                           libblockdev
+                                                      libbluray
+                                                               libbytesize
+                                                                          libc++
+                                                                                libc++abi
+                                                                                         libcanberra
+                                                                                                    libcap
+                                                                                                          libcap-ng
+                                                                                                                   libcddb
+                                                                                                                          libcdio
+                                                                                                                                 libcdio-paranoia
+                                                                                                                                                 libcdr
+                                                                                                                                                       libcmis
+                                                                                                                                                              libconfig
+                                                                                                                                                                       libcroco
+                                                                                                                                                                               libcryptui
+                                                                                                                                                                                         libcups
+                                                                                                                                                                                                libcurl-gnutls
+                                                                                                                                                                                                              libdaemon
+                                                                                                                                                                                                                       libdatrie
+                                                                                                                                                                                                                                libdbusmenu-qt5
+                                                                                                                                                                                                                                               libde265
+                                                                                                                                                                                                                                                      libdrm
+     libe-book
+              libedit
+                     libelf
+                           libepoxy
+                                   libepubgen
+                                             libetonyek
+                                                       libev
+                                                            libevdev
+                                                                    libevent
+                                                                            libexif
+                                                                                   libexttextcat
+                                                                                                libffi
+                                                                                                      libfontenc
+                                                                                                                libfreehand
+                                                                                                                           libgcrypt
+                                                                                                                                    libgdata
+                                                                                                                                            libgexiv2
+                                                                                                                                                     libglade
+                                                                                                                                                             libglvnd
+                                                                                                                                                                     libgpg-error
+                                                                                                                                                                                 libgsf
+                                                                                                                                                                                       libgudev
+                                                                                                                                                                                               libgusb
+                                                                                                                                                                                                      libgweather
+                                                                                                                                                                                                                 libheif
+                                                                                                                                                                                                                        libibus
+                                                                                                                                                                                                                               libical
+                                                                                                                                                                                                                                      libice
+                                                                                                                                                                                                                                            libid3tag
+                                                                                                                                                                                                                                                     libidn
+    libidn2
+           libiec61883
+                      libimobiledevice
+                                      libinput
+                                              libixion
+                                                      libjpeg-turbo
+                                                                   libkeybinder3
+                                                                                libksba
+                                                                                       liblangtag
+                                                                                                 libldap
+                                                                                                        liblouis
+                                                                                                                liblqr
+                                                                                                                      libmagick
+                                                                                                                               libmagick6
+                                                                                                                                         libmm-glib
+                                                                                                                                                   libmng
+                                                                                                                                                         libmnl
+                                                                                                                                                               libmodplug
+                                                                                                                                                                         libmpc
+                                                                                                                                                                               libmspub
+                                                                                                                                                                                       libmwaw
+                                                                                                                                                                                              libmypaint
+                                                                                                                                                                                                        libnautilus-extension
+                                                                                                                                                                                                                             libndp
+                                                                                                                                                                                                                                   libnetctlgui
+                                                                                                                                                                                                                                               libnewt
+                                                                                                                                                                                                                                                      libnftnl
+       libnghttp2
+                 libnl
+                      libnm
+                           libnm-glib
+                                     libnm-gtk
+                                              libnma
+                                                    libnotify
+                                                             libnsl
+                                                                   libnumbertext
+                                                                                liboauth
+                                                                                        libodfgen
+                                                                                                 libogg
+                                                                                                       libomxil-bellagio
+                                                                                                                        liborcus
+                                                                                                                                libpagemaker
+                                                                                                                                            libpaper
+                                                                                                                                                    libpcap
+                                                                                                                                                           libpciaccess
+                                                                                                                                                                       libpgm
+                                                                                                                                                                             libphonenumber
+                                                                                                                                                                                           libpipeline
+                                                                                                                                                                                                      libplist
+                                                                                                                                                                                                              libpng
+                                                                                                                                                                                                                    libproxy
+                                                                                                                                                                                                                            libpsl
+                                                                                                                                                                                                                                  libpst
+                                                                                                                                                                                                                                        libpulse
+                                                                                                                                                                                                                                                libqxp
+                                                                                                                                                                                                                                                      libraqm
+      libraw
+            libraw1394
+                      libreoffice-fresh
+                                       libreoffice-fresh-de
+                                                           librevenge
+                                                                     librsvg
+                                                                            libsamplerate
+                                                                                         libsasl
+                                                                                                libsass
+                                                                                                       libseccomp
+                                                                                                                 libsecret
+                                                                                                                          libsigc++
+                                                                                                                                   libsm
+                                                                                                                                        libsndfile
+                                                                                                                                                  libsodium
+                                                                                                                                                           libsoup
+                                                                                                                                                                  libsoxr
+                                                                                                                                                                         libspiro
+                                                                                                                                                                                 libssh
+                                                                                                                                                                                       libssh2
+                                                                                                                                                                                              libstaroffice
+                                                                                                                                                                                                           libstemmer
+                                                                                                                                                                                                                     libsystemd
+                                                                                                                                                                                                                               libtasn1
+                                                                                                                                                                                                                                       libteam
+                                                                                                                                                                                                                                              libthai
+                                                                                                                                                                                                                                                     libtheora
+       libtiff
+              libtirpc
+                      libtommath
+                                libtool
+                                       libu2f-host
+                                                  libu2f-server
+                                                               libunistring
+                                                                           libunwind
+                                                                                    libusb
+                                                                                          libusbmuxd
+                                                                                                    libutempter
+                                                                                                               libutil-linux
+                                                                                                                            libuv
+                                                                                                                                 libva
+                                                                                                                                      libvdpau
+                                                                                                                                              libvisio
+                                                                                                                                                      libvisual
+                                                                                                                                                               libvoikko
+                                                                                                                                                                        libvorbis
+                                                                                                                                                                                 libvpx
+                                                                                                                                                                                       libwacom
+                                                                                                                                                                                               libwebp
+                                                                                                                                                                                                      libwmf
+                                                                                                                                                                                                            libwpd
+                                                                                                                                                                                                                  libwpg
+                                                                                                                                                                                                                        libwps
+                                                                                                                                                                                                                              libx11
+                                                                                                                                                                                                                                    libxau
+                                                                                                                                                                                                                                          libxaw
+                                                                                                                                                                                                                                                libxcb
+                                                                                                                                                                                                                                                      libxcomposite
+            libxcursor
+                      libxdamage
+                                libxdg-basedir
+                                              libxdmcp
+                                                      libxext
+                                                             libxfixes
+                                                                      libxfont2
+                                                                               libxft
+                                                                                     libxi
+                                                                                          libxinerama
+                                                                                                     libxkbcommon
+                                                                                                                 libxkbcommon-x11
+                                                                                                                                 libxkbfile
+                                                                                                                                           libxml2
+                                                                                                                                                  libxmu
+                                                                                                                                                        libxpm
+                                                                                                                                                              libxrandr
+                                                                                                                                                                       libxrender
+                                                                                                                                                                                 libxshmfence
+                                                                                                                                                                                             libxslt
+                                                                                                                                                                                                    libxss
+                                                                                                                                                                                                          libxt
+                                                                                                                                                                                                               libxtst
+                                                                                                                                                                                                                      libxv
+                                                                                                                                                                                                                           libxvmc
+                                                                                                                                                                                                                                  libxxf86vm
+                                                                                                                                                                                                                                            libyaml
+                                                                                                                                                                                                                                                   libytnef
+    libzmf
+          licenses
+                  linux
+                       linux-api-headers
+                                        linux-firmware
+                                                      linux-headers
+                                                                   llvm-libs
+                                                                            lm_sensors
+                                                                                      lmdb
+                                                                                          logrotate
+                                                                                                   lpsolve
+                                                                                                          lsof
+                                                                                                              lua
+                                                                                                                 lua52
+                                                                                                                      lvm2
+                                                                                                                          lxappearance
+                                                                                                                                      lz4
+                                                                                                                                         lzo
+                                                                                                                                            m4
+                                                                                                                                              mailcap
+                                                                                                                                                     make
+                                                                                                                                                         man-db
+                                                                                                                                                               man-pages
+                                                                                                                                                                        mdadm
+                                                                                                                                                                             media-player-info
+                                                                                                                                                                                              mesa
+                                                                                                                                                                                                  metis
+                                                                                                                                                                                                       minizip
+                                                                                                                                                                                                              mkinitcpio
+                                                                                                                                                                                                                        mkinitcpio-busybox
+                                                                                                                                                                                                                                          mobile-broadband-provider-info
+                 mozilla-common
+                               mpfr
+                                   mtdev
+                                        mypaint-brushes
+                                                       nano
+                                                           nautilus
+                                                                   nautilus-sendto
+                                                                                  ncurses
+                                                                                         ndctl
+                                                                                              neofetch
+                                                                                                      neon
+                                                                                                          nerd-fonts-fira-code
+                                                                                                                              nerd-fonts-hack
+                                                                                                                                             nerd-fonts-inconsolata
+                                                                                                                                                                   nerd-fonts-source-code-pro
+                                                                                                                                                                                             netctl
+                                                                                                                                                                                                   nettle
+                                                                                                                                                                                                         network-manager-applet
+                                                                                                                                                                                                                               networkmanager
+                                                                                                                                                                                                                                             ninja
+                                                                                                                                                                                                                                                  nm-connection-editor
+               nmap
+                   node-gyp
+                           nodejs
+                                 npm
+                                    npth
+                                        nspr
+                                            nss
+                                               ntfs-3g
+                                                      octopi
+                                                            oniguruma
+                                                                     oomox
+                                                                          openal
+                                                                                opencore-amr
+                                                                                            openexr
+                                                                                                   openjpeg2
+                                                                                                            openresolv
+                                                                                                                      openssh
+                                                                                                                             openssl
+                                                                                                                                    openssl-1.0
+                                                                                                                                               optipng
+                                                                                                                                                      opus
+                                                                                                                                                          orc
+                                                                                                                                                             os-prober
+                                                                                                                                                                      p11-kit
+                                                                                                                                                                             p7zip
+                                                                                                                                                                                  pacman
+                                                                                                                                                                                        pacman-contrib
+                                                                                                                                                                                                      pacman-mirrorlist
+                                                                                                                                                                                                                       pacutils
+                                                                                                                                                                                                                               pam
+                                                                                                                                                                                                                                  pam_u2f
+                                                                                                                                                                                                                                         pambase
+                                                                                                                                                                                                                                                pango
+                                                                                                                                                                                                                                                     pangomm
+     papirus-icon-theme
+                       parallel
+                               parted
+                                     patch
+                                          pciutils
+                                                  pcre
+                                                      pcre2
+                                                           pcsclite
+                                                                   perl
+                                                                       perl-data-dump
+                                                                                     perl-encode-locale
+                                                                                                       perl-error
+                                                                                                                 perl-file-listing
+                                                                                                                                  perl-html-parser
+                                                                                                                                                  perl-html-tagset
+                                                                                                                                                                  perl-http-cookies
+                                                                                                                                                                                   perl-http-daemon
+                                                                                                                                                                                                   perl-http-date
+                                                                                                                                                                                                                 perl-http-message
+                                                                                                                                                                                                                                  perl-http-negotiate
+                                                                                                                                                                                                                                                     perl-io-html
+          perl-io-socket-ssl
+                            perl-json
+                                     perl-libwww
+                                                perl-locale-gettext
+                                                                   perl-log-message
+                                                                                   perl-log-message-simple
+                                                                                                          perl-lwp-mediatypes
+                                                                                                                             perl-lwp-protocol-https
+                                                                                                                                                    perl-mailtools
+                                                                                                                                                                  perl-net-http
+                                                                                                                                                                               perl-net-ssleay
+                                                                                                                                                                                              perl-term-readline-gnu
+                                                                                                                                                                                                                    perl-term-ui
+                                                                                                                                                                                                                                perl-timedate
+                                                                                                                                                                                                                                             perl-try-tiny
+   perl-uri
+           perl-www-robotrules
+                              pinentry
+                                      pipes.sh
+                                              pixman
+                                                    pkgconf
+                                                           pkgfile
+                                                                  plasma-framework
+                                                                                  playerctl
+                                                                                           polkit
+                                                                                                 polkit-qt5
+                                                                                                           polybar
+                                                                                                                  poppler
+                                                                                                                         poppler-data
+                                                                                                                                     poppler-glib
+                                                                                                                                                 popt
+                                                                                                                                                     potrace
+                                                                                                                                                            procps-ng
+                                                                                                                                                                     protobuf
+                                                                                                                                                                             psmisc
+                                                                                                                                                                                   pulseaudio
+                                                                                                                                                                                             pulseaudio-alsa
+                                                                                                                                                                                                            pulseaudio-bluetooth
+                                                                                                                                                                                                                                pulseaudio-equalizer
+                                                                                                                                                                                                                                                    pygobject-devel
+            pygobject2-devel
+                            pygtk
+                                 pyqt5-common
+                                             python
+                                                   python-anytree
+                                                                 python-appdirs
+                                                                               python-asn1crypto
+                                                                                                python-cffi
+                                                                                                           python-click
+                                                                                                                       python-colorama
+                                                                                                                                      python-cryptography
+                                                                                                                                                         python-dbus
+                                                                                                                                                                    python-dbus-common
+                                                                                                                                                                                      python-decorator
+                                                                                                                                                                                                      python-fido2
+                                                                                                                                                                                                                  python-gobject
+                                                                                                                                                                                                                                python-idna
+                                                                                                                                                                                                                                           python-lxml
+                                                                                                                                                                                                                                                      python-packaging
+               python-pillow
+                            python-ply
+                                      python-psutil
+                                                   python-pycparser
+                                                                   python-pygments
+                                                                                  python-pyopenssl
+                                                                                                  python-pyotherside
+                                                                                                                    python-pyparsing
+                                                                                                                                    python-pyqt5
+                                                                                                                                                python-pyscard
+                                                                                                                                                              python-pyte
+                                                                                                                                                                         python-pyusb
+                                                                                                                                                                                     python-pywal
+                                                                                                                                                                                                 python-setuptools
+                                                                                                                                                                                                                  python-sip
+                                                                                                                                                                                                                            python-sip-pyqt5
+                                                                                                                                                                                                                                            python-six
+                                                                                                                                                                                                                                                      python-wcwidth
+             python2
+                    python2-cairo
+                                 python2-dbus
+                                             python2-gobject
+                                                            python2-gobject2
+                                                                            python2-psutil
+                                                                                          qpdf
+                                                                                              qt5-base
+                                                                                                      qt5-declarative
+                                                                                                                     qt5-graphicaleffects
+                                                                                                                                         qt5-multimedia
+                                                                                                                                                       qt5-quickcontrols
+                                                                                                                                                                        qt5-quickcontrols2
+                                                                                                                                                                                          qt5-script
+                                                                                                                                                                                                    qt5-speech
+                                                                                                                                                                                                              qt5-styleplugins
+                                                                                                                                                                                                                              qt5-svg
+                                                                                                                                                                                                                                     qt5-tools
+                                                                                                                                                                                                                                              qt5-x11extras
+    qt5-xmlpatterns
+                   qtermwidget
+                              ranger
+                                    raptor
+                                          rasqal
+                                                re2
+                                                   readline
+                                                           redland
+                                                                  reiserfsprogs
+                                                                               rest
+                                                                                   rhash
+                                                                                        rofi
+                                                                                            rsync
+                                                                                                 rtkit
+                                                                                                      rtmpdump
+                                                                                                              run-parts
+                                                                                                                       s-nail
+                                                                                                                             sassc
+                                                                                                                                  sbc
+                                                                                                                                     scrot
+                                                                                                                                          sdl
+                                                                                                                                             sdl2
+                                                                                                                                                 sdl_ttf
+                                                                                                                                                        sed
+                                                                                                                                                           semver
+                                                                                                                                                                 shadow
+                                                                                                                                                                       shared-mime-info
+                                                                                                                                                                                       slang
+                                                                                                                                                                                            snappy
+                                                                                                                                                                                                  solid
+                                                                                                                                                                                                       sonnet
+                                                                                                                                                                                                             sound-theme-freedesktop
+                                                                                                                                                                                                                                    source-highlight
+                                                                                                                                                                                                                                                    speedtest-cli
+          speex
+               speexdsp
+                       spotify
+                              sqlite
+                                    startup-notification
+                                                        stow
+                                                            sudo
+                                                                suitesparse
+                                                                           swig
+                                                                               sysfsutils
+                                                                                         systemd
+                                                                                                systemd-sysvcompat
+                                                                                                                  tar
+                                                                                                                     tdb
+                                                                                                                        terminator
+                                                                                                                                  texinfo
+                                                                                                                                         thefuck
+                                                                                                                                                thin-provisioning-tools
+                                                                                                                                                                       traceroute
+                                                                                                                                                                                 tracker
+                                                                                                                                                                                        transmission-gtk
+                                                                                                                                                                                                        trizen
+                                                                                                                                                                                                              tslib
+                                                                                                                                                                                                                   ttf-bitstream-vera
+                                                                                                                                                                                                                                     ttf-cheapskate
+                                                                                                                                                                                                                                                   ttf-dejavu
+      ttf-dejavu-sans-mono-powerline-git
+                                        ttf-fira-code
+                                                     ttf-font-awesome
+                                                                     ttf-font-awesome-4
+                                                                                       ttf-hack
+                                                                                               ttf-inconsolata
+                                                                                                              ttf-liberation
+                                                                                                                            ttf-weather-icons
+                                                                                                                                             tzdata
+                                                                                                                                                   udisks2
+                                                                                                                                                          unrar
+                                                                                                                                                               unzip
+                                                                                                                                                                    upower
+                                                                                                                                                                          usbmuxd
+                                                                                                                                                                                 usbutils
+                                                                                                                                                                                         util-linux
+                                                                                                                                                                                                   v4l-utils
+                                                                                                                                                                                                            vala
+                                                                                                                                                                                                                vi
+                                                                                                                                                                                                                  vid.stab
+                                                                                                                                                                                                                          volume_key
+                                                                                                                                                                                                                                    vte-common
+                                                                                                                                                                                                                                              vte3
+                                                                                                                                                                                                                                                  w3m
+                                                                                                                                                                                                                                                     wayland
+     wayland-protocols
+                      weather-bar
+                                 webkit2gtk
+                                           webrtc-audio-processing
+                                                                  wget
+                                                                      which
+                                                                           wireless_tools
+                                                                                         woff2
+                                                                                              wpa_supplicant
+                                                                                                            x264
+                                                                                                                x265
+                                                                                                                    xcb-proto
+                                                                                                                             xcb-util
+                                                                                                                                     xcb-util-cursor
+                                                                                                                                                    xcb-util-image
+                                                                                                                                                                  xcb-util-keysyms
+                                                                                                                                                                                  xcb-util-renderutil
+                                                                                                                                                                                                     xcb-util-wm
+                                                                                                                                                                                                                xcb-util-xrm
+                                                                                                                                                                                                                            xdg-user-dirs
+                                                                                                                                                                                                                                         xdg-utils
+                                                                                                                                                                                                                                                  xf86-input-elographics
+                 xf86-input-evdev
+                                 xf86-input-keyboard
+                                                    xf86-input-libinput
+                                                                       xf86-input-mouse
+                                                                                       xf86-video-intel
+                                                                                                       xf86-video-vesa
+                                                                                                                      xfsprogs
+                                                                                                                              xkeyboard-config
+                                                                                                                                              xmlsec
+                                                                                                                                                    xorg-bdftopcf
+                                                                                                                                                                 xorg-font-util
+                                                                                                                                                                               xorg-font-utils
+                                                                                                                                                                                              xorg-fonts-alias
+                                                                                                                                                                                                              xorg-fonts-encodings
+                                                                                                                                                                                                                                  xorg-fonts-type1
+                                                                                                                                                                                                                                                  xorg-mkfontdir
+         xorg-mkfontscale
+                         xorg-server
+                                    xorg-server-common
+                                                      xorg-setxkbmap
+                                                                    xorg-xauth
+                                                                              xorg-xinit
+                                                                                        xorg-xinput
+                                                                                                   xorg-xkbcomp
+                                                                                                               xorg-xmodmap
+                                                                                                                           xorg-xrandr
+                                                                                                                                      xorg-xrdb
+                                                                                                                                               xorg-xset
+                                                                                                                                                        xorgproto
+                                                                                                                                                                 xvidcore
+                                                                                                                                                                         xz
+                                                                                                                                                                           yajl
+                                                                                                                                                                               yubico-c
+                                                                                                                                                                                       yubico-c-client
+                                                                                                                                                                                                      yubico-yubioath-desktop
+                                                                                                                                                                                                                             yubikey-manager
+                                                                                                                                                                                                                                            yubikey-personalization
+            zeromq
+                  zip
+                     zita-alsa-pcmi
+                                   zita-resampler
+                                                 zlib
+                                                     zsh
+                                                        zstd
 
 </p>
 </details>
