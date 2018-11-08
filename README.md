@@ -750,12 +750,12 @@ zstd
 
 ## Screenshots
 
-![Alt text](/screenshots/1.png?raw=true "1")
-![Alt text](/screenshots/2.png?raw=true "2")
-![Alt text](/screenshots/3.png?raw=true "3")
-![Alt text](/screenshots/4.png?raw=true "4")
-![Alt text](/screenshots/5.png?raw=true "5")
-![Alt text](/screenshots/6.png?raw=true "6")
+![Alt text](/screenshots/a.png?raw=true "1")
+![Alt text](/screenshots/b.png?raw=true "2")
+![Alt text](/screenshots/c.png?raw=true "3")
+![Alt text](/screenshots/d.png?raw=true "4")
+![Alt text](/screenshots/e.png?raw=true "5")
+![Alt text](/screenshots/f.png?raw=true "6")
 
 License
 ----
