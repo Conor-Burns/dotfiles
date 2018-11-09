@@ -7,7 +7,7 @@ Use GNU stow to symlink them - [here](http://brandon.invergo.net/news/2012-05-26
 
 ## Dependencies
 
-
+####(this is just an overview)
 | Package                                                  | Description                                                      |
 |----------------------------------------------------------|------------------------------------------------------------------|
 | [Arch Linux](https://www.archlinux.org/)                 | The best distro ever!                                            |
