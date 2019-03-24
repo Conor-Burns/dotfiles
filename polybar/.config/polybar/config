@@ -23,8 +23,11 @@ module-margin = 4
 
 font-0 = FuraCode Nerd Font:size=12
 
+tray-position = right
+tray-padding = 2
+
 modules-left = i3
-modules-right = volume wired-network date
+modules-right = volume wired-network wireless-network date
 modules-center = title
 
 [bar/bottom]
@@ -145,12 +148,18 @@ ramp-0 = 
 ramp-1 = 
 ramp-2  =
 
+[module/wireless-network]
+type = internal/network
+interface = wlp58s0
+interval = 3.0
+label-connected = %{T3} %signal% %local_ip% %upspeed:2% %downspeed:2% %{T-}
+label-disconnected-foreground = #66
+
 [module/wired-network]
 type = internal/network
 interface = eno1
 interval = 3.0
-
-label-connected =  %{T3}%local_ip%%{T-}
+label-connected =  %{T3}%local_ip% %upspeed:2% %downspeed:2%%{T-}
 label-disconnected-foreground = #66
 
 [module/volume]

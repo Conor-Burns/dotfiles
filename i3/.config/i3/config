@@ -5,9 +5,10 @@ set $mod Mod4
 new_window pixel
 
 # i3-gaps
+smart_borders on
 gaps inner 20
 gaps outer 20
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 4
 
 # Font for window titles.
 font pango:FuraCode Nerd Font 11

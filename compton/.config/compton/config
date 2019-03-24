@@ -18,7 +18,7 @@ no-dnd-shadow = true;
 # Avoid drawing shadows on dock/panel windows.
 no-dock-shadow = true;
 # Zero the part of the shadow's mask behind the window. Fix some weirdness with ARGB windows.
-clear-shadow = true;
+#clear-shadow = true;
 # The blur radius for shadows. (default 12)
 shadow-radius = 5;
 # The left offset for shadows. (default -15)
@@ -63,7 +63,7 @@ inactive-opacity = 1;
 active-opacity = 1;
 frame-opacity = 1;
 inactive-opacity-override = false;
-blur-kern = "5,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1";
+#blur-kern = "5,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1";
 blur-background = true;
 blur-background-frame = true;
 alpha-step = 0.6;
@@ -73,7 +73,11 @@ blur-background-exclude = [
     "window_type = 'dock'",
     "window_type = 'desktop'"
 ];
-opacity-rule = [ "80:class_g = 'Terminator'" ];
+opacity-rule = [ "70:class_g = 'Terminator'",
+		 "70:class_g = 'Anki'",
+		 "70:class_g = 'Nautilus'",
+		 "70:class_g = 'Emacs'"
+ ];
 
 #################################
 #
@@ -134,7 +138,7 @@ vsync = "opengl-swc";
 # Reported to have no effect, though.
 dbe = false;
 # Painting on X Composite overlay window. Recommended.
-paint-on-overlay = true;
+#paint-on-overlay = true;
 
 # Limit compton to repaint at most once every 1 / refresh_rate second to boost performance.
 # This should not be used with --vsync drm/opengl/opengl-oml as they essentially does --sw-opti's job already,
