@@ -25,6 +25,9 @@ bindsym $mod+Shift+q kill
 # Start rofi
 bindsym $mod+d exec rofi -show drun
 
+# Random wallpaper
+bindsym $mod+w exec wpg -m
+
 # Move between windows
 bindsym $mod+j focus left
 bindsym $mod+k focus down
@@ -60,7 +63,7 @@ bindsym $mod+f fullscreen toggle
 
 # Change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
+bindsym $mod+t layout tabbed
 bindsym $mod+e layout toggle split
 
 # Toggle tiling / floating
@@ -110,9 +113,14 @@ for_window [class="Firefox"] move to workspace $workspace1
 for_window [class="Atom"] move to workspace $workspace2
 for_window [class="Terminator"] move to workspace $workspace3
 for_window [class="Nautilus"] move to workspace $workspace4
+for_window [class="^Fanz$"] move to workspace $workspace7
 for_window [class="Spotify"] move to workspace $workspace8
+for_window [class="^Pavucontrol$"] move to workspace $workspace9
+for_window [class="^Wicd-client.py$"] move to workspace $workspace9
 
 # Enable float for some windows
+for_window [class="^Wicd-client.py$"] floating enable
+for_window [class="^Yubico Authenticator$"] floating enable
 for_window [class="^Pavucontrol$"] floating enable
 for_window [class="^Arandr$"] floating enable
 for_window [class="^Steam$" title="^Friends List$"] floating enable
@@ -192,25 +200,13 @@ client.focused_inactive     $acqua   $acqua     $silver  $acqua
 client.urgent               $magenta $magenta   $silver  $magenta
 client.placeholder          $magenta $magenta   $silver  $magenta
 
-# Start i3blocks to display a workspace bar
-#bar
-#{
-#	position top
-#	status_command i3blocks
-#	i3bar_command i3bar -t
-#	font pango: Hack Nerd Font Black 10
-#	colors
-#	{
-#                       # Border	# Background	# Text
-#		focused_workspace   $silver0  $silver0  $elegant
-#		active_workspace    $elegant  $elegant  $orange
-#		inactive_workspace  $elegant  $elegant 	$cyan0
-#		urgent_workspace    $acqua    $acqua    $silver0
-#		background          $elegant
-#    	}
-#}
-
 # Startup programs
 exec --no-startup-id setxkbmap -model pc105 -layout de # Set the keyboard layout
 exec --no-startup-id compton --config ~/.config/compton/config
 exec_always --no-startup-id ~/.config/polybar/launch.sh &amp;
+exec_always --no-startup-id blueman-applet &amp;
+exec_always --no-startup-id pavucontrol &amp;
+exec_always --no-startup-id nautilus &amp;
+exec_always --no-startup-id firefox &amp;
+exec_always --no-startup-id spotify &amp;
+exec_always --no-startup-id terminator &amp;

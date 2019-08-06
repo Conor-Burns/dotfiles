@@ -3,12 +3,23 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="sftp://root@conor-burns.com:222/" added="2018-11-26T19:09:23Z" modified="2019-03-05T00:06:16Z" visited="2019-03-05T00:06:16Z">
+  <bookmark href="sftp://root@conor-burns.com:222/" added="2018-11-26T19:09:23Z" modified="2019-07-21T21:20:16Z" visited="2019-07-21T21:20:16Z">
     <title>/ auf conor-burns.com</title>
     <info>
       <metadata owner="http://freedesktop.org">
         <bookmark:applications>
           <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2019-03-05T00:06:16Z" count="64"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2019-07-21T21:20:16Z" count="55"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="afp://10.10.10.100/" added="2019-04-25T10:29:58Z" modified="2019-06-10T20:00:06Z" visited="2019-06-10T20:00:06Z">
+    <title>nashome</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2019-06-10T20:00:06Z" count="4"/>
         </bookmark:applications>
       </metadata>
     </info>
