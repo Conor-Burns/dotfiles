@@ -25,7 +25,7 @@
   [[default]]
     background_color = "#263647"
     cursor_color = "#bbbbbb"
-    font = FuraCode Nerd Font Mono 12
+    font = Source Code Pro for Powerline Regular 12
     foreground_color = "#ffffff"
     palette = "#000000:#f9555f:#21b089:#fef02a:#589df6:#944d95:#1f9ee7:#bbbbbb:#555555:#fa8c8f:#35bb9a:#ffff55:#589df6:#e75699:#3979bc:#ffffff"
     scrollback_infinite = True

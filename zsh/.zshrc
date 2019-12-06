@@ -8,12 +8,14 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+alias fetch="neofetch --w3m"
 alias bw="wpg --backend wal -s ~/.config/wall.png"
 alias wp="pywal-spotify -r 2560x1440 -q"
 alias clock="tty-clock -scD"
 alias dot="cd ~/dotfiles"
 alias screen="ffmpeg -y -f pulse -ac 2 -i default -framerate 24 -video_size 2560:1440 -f x11grab -i :0.0 -c:v libx264rgb -crf 0 -preset ultrafast ~/Videos/out.mp4"
 alias render="ffmpeg -i ~/Videos/out.mp4 -codec:v libx264 -crf 21 -bf 2 -flags +cgop -pix_fmt yuv420p -codec:a aac -strict -2 -b:a 384k -r:a 48000 -movflags faststart ~/Videos/final.mp4"
+alias update="trizen --noconfirm -Syuu --sudo-autorepeat-at-runtime"
 
 eval $(thefuck --alias --enable-experimental-instant-mode)
 
