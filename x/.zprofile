@@ -11,7 +11,7 @@ export GPG_TTY=$(tty)
 if [[ -n $SSH_CONNECTION ]]; then
     export EDITOR='vim'
 else
-    export EDITOR='emacs'
+    export EDITOR='nano'
 fi
 
 export QT_QPA_PLATFORMTHEME=gtk2

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/The_Matterhorn-581511.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#01020A",
+        "foreground": "#c5c5c2",
+        "cursor": "#c5c5c2"
+    },
+    "colors": {
+        "color0": "#01020A",
+        "color1": "#2D485E",
+        "color2": "#134869",
+        "color3": "#2B506D",
+        "color4": "#56616C",
+        "color5": "#9B7D52",
+        "color6": "#537185",
+        "color7": "#c5c5c2",
+        "color8": "#898987",
+        "color9": "#2D485E",
+        "color10": "#134869",
+        "color11": "#2B506D",
+        "color12": "#56616C",
+        "color13": "#9B7D52",
+        "color14": "#537185",
+        "color15": "#c5c5c2"
+    }
+}

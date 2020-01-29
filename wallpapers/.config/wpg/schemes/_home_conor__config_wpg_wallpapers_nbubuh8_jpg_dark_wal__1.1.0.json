@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/nbubuh8.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#120a05",
+        "foreground": "#e6dcc5",
+        "cursor": "#e6dcc5"
+    },
+    "colors": {
+        "color0": "#120a05",
+        "color1": "#92411F",
+        "color2": "#8E672E",
+        "color3": "#96704A",
+        "color4": "#7C821C",
+        "color5": "#AF9158",
+        "color6": "#BCA446",
+        "color7": "#e6dcc5",
+        "color8": "#a19a89",
+        "color9": "#92411F",
+        "color10": "#8E672E",
+        "color11": "#96704A",
+        "color12": "#7C821C",
+        "color13": "#AF9158",
+        "color14": "#BCA446",
+        "color15": "#e6dcc5"
+    }
+}

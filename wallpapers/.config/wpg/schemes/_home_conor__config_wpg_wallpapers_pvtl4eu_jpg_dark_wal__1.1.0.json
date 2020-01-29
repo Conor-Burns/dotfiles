@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/pvtl4eu.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#040404",
+        "foreground": "#b0bad6",
+        "cursor": "#b0bad6"
+    },
+    "colors": {
+        "color0": "#040404",
+        "color1": "#463C8B",
+        "color2": "#335092",
+        "color3": "#504E90",
+        "color4": "#695F9E",
+        "color5": "#93689E",
+        "color6": "#9D77B9",
+        "color7": "#b0bad6",
+        "color8": "#7b8295",
+        "color9": "#463C8B",
+        "color10": "#335092",
+        "color11": "#504E90",
+        "color12": "#695F9E",
+        "color13": "#93689E",
+        "color14": "#9D77B9",
+        "color15": "#b0bad6"
+    }
+}

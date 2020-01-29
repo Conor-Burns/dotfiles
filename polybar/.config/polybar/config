@@ -4,7 +4,7 @@ fg          = #002636
 bg	    = #e4e4e4
 
 [bar/top]
-monitor = DP2
+monitor = eDP1
 width = 100%
 height = 34
 
@@ -24,14 +24,14 @@ module-margin = 4
 font-0 = FuraCode Nerd Font:size=12
 
 tray-position = right
-tray-padding = 2
+override-redirect = false
 
 modules-left = i3
-modules-right = volume wired-network wireless-network date
+modules-right = wired-network wireless-network date
 modules-center = title
 
 [bar/bottom]
-monitor = DP2
+monitor = eDP1
 bottom = true
 width = 100%
 height = 30
@@ -49,9 +49,59 @@ module-margin-right = 6
 
 font-0 = FuraCode Nerd Font:size=12
 
-modules-left = powermenu openweathermap ssh ping updates
+modules-left = powermenu pulseaudio battery openweathermap ping
 modules-right = cpu memory temperature filesystem
-modules-center = spotify
+modules-center = music
+
+[bar/top2]
+monitor = DP2-1
+width = 100%
+height = 24
+
+scroll-up = i3wm-wsnext
+scroll-down = i3wm-wsprev
+
+background = #00000000
+foreground = #ccffffff
+
+line-color = ${bar/bottom.background}
+line-size = 16
+
+spacing = 2
+padding-right = 5
+module-margin = 4
+
+font-0 = FuraCode Nerd Font:size=12
+
+tray-position = right
+override-redirect = false
+
+modules-left = i3
+modules-right = wired-network wireless-network date
+modules-center = title
+
+[bar/bottom2]
+monitor = DP2-1
+bottom = true
+width = 100%
+height = 20
+
+background = ${bar/top.background}
+foreground = ${bar/top.foreground}
+
+line-color = ${bar/top.background}
+line-size = 2
+
+spacing = 3
+padding-right = 4
+module-margin-left = 0
+module-margin-right = 6
+
+font-0 = FuraCode Nerd Font:size=12
+
+modules-left = powermenu pulseaudio battery openweathermap ssh ping updates
+modules-right = cpu memory temperature filesystem
+modules-center = music
 
 [module/i3]
 type = internal/i3
@@ -64,7 +114,7 @@ ws-icon-6 = 
 ws-icon-7 = 
 ws-icon-8 = 
 ws-icon-9 = 
-pin-workspaces = false
+pin-workspaces = true
 strip-wsnumbers = true
 format = <label-state><label-mode>
 
@@ -120,7 +170,7 @@ type = internal/memory
 format = <label> <bar-used>
 label = RAM
 
-bar-used-width = 30
+bar-used-width = 20
 bar-used-foreground-0 = #aaff77
 bar-used-foreground-1 = #aaff77
 bar-used-foreground-2 = #fba922
@@ -134,40 +184,41 @@ bar-used-empty = ─
 bar-used-empty-font = 0
 bar-used-empty-foreground = #444444
 
-[module/spotify]
-type = custom/script
-interval = 1
-format-prefix = " "
-format = <label>
-exec = python ~/.config/polybar/spotify.py -f '{artist} - {song}'
-
 [module/temperature]
 type = internal/temperature
-thermal-zone = 1
+thermal-zone = 2
 ramp-0 = 
 ramp-1 = 
 ramp-2  =
 
 [module/wireless-network]
 type = internal/network
-interface = wlp58s0
+interface = wlp3s0
 interval = 3.0
-label-connected = %{T3} %signal% %local_ip% %upspeed:2% %downspeed:2% %{T-}
+label-connected = %{A1:nm-connection-editor:}%essid%  %signal%%{A} %local_ip% %upspeed:2% %downspeed:2% %{T-}
 label-disconnected-foreground = #66
 
 [module/wired-network]
 type = internal/network
-interface = eno1
+interface = eno0
 interval = 3.0
-label-connected =  %{T3}%local_ip% %upspeed:2% %downspeed:2%%{T-}
+label-connected = %{A1:nm-connection-editor:}%{A} %{T3}%local_ip% %upspeed:2% %downspeed:2%%{T-}
 label-disconnected-foreground = #66
 
-[module/volume]
-type = internal/alsa
-master-mixer = Master
+[module/pulseaudio]
+type = internal/pulseaudio
+
+use-ui-max = true
+
+interval = 5
 
 format-volume = <label-volume>
-label-muted =  muted
+format-muted = <label-muted>
+label-volume =VOL  %percentage%%
+label-muted = VOL muted
+label-muted-foreground = #666
+
+click-right = pavucontrol &
 
 [module/powermenu]
 type = custom/menu
@@ -187,10 +238,10 @@ menu-0-1-exec = menu-open-2
 menu-1-0 = cancel
 menu-1-0-exec = menu-open-0
 menu-1-1 = reboot
-menu-1-1-exec = terminator -e 'sudo reboot'
+menu-1-1-exec = terminator -e 'reboot'
 
 menu-2-0 = power off
-menu-2-0-exec = terminator -e 'sudo shutdown now'
+menu-2-0-exec = terminator -e 'shutdown now'
 menu-2-1 = cancel
 menu-2-1-exec = menu-open-0
 
@@ -233,5 +284,26 @@ interval = 5
 type = internal/fs
 mount-0 = /
 interval = 10
+
+[module/battery]
+type = internal/battery
+full-at = 99
+
+; $ ls -1 /sys/class/power_supply/
+battery = BAT0
+adapter = AC
+label-charging = AC %percentage%%
+label-discharging = BAT %percentage%%
+poll-interval = 5
+format-discharging = <label-discharging>
+format-charging = <label-charging>
+
+[module/music]
+type = custom/script
+exec = ~/.config/polybar/player-mpris-tail.py -f '{icon} {artist} - {title}'
+tail = true
+click-left = ~/.config/polybar/player-mpris-tail.py previous &
+click-right = ~/.config/polybar/player-mpris-tail.py next &
+click-middle = ~/.config/polybar/player-mpris-tail.py play-pause &
 
 ; vim:ft=dosini

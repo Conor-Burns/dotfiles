@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/RuFM0FA2DxRZ3EAiSwtxsID9MJHrGbwvU2cfB5vrT68.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#030304",
+        "foreground": "#dbd2d9",
+        "cursor": "#dbd2d9"
+    },
+    "colors": {
+        "color0": "#030304",
+        "color1": "#C79A74",
+        "color2": "#63728A",
+        "color3": "#828090",
+        "color4": "#A99BA0",
+        "color5": "#D2AE9B",
+        "color6": "#EDCEAF",
+        "color7": "#dbd2d9",
+        "color8": "#999397",
+        "color9": "#C79A74",
+        "color10": "#63728A",
+        "color11": "#828090",
+        "color12": "#A99BA0",
+        "color13": "#D2AE9B",
+        "color14": "#EDCEAF",
+        "color15": "#dbd2d9"
+    }
+}

@@ -3,11 +3,6 @@
   inactive_color_offset = 1.0
   tab_position = hidden
   title_font = Hack Nerd Font Mono 14
-  title_inactive_bg_color = "#263647"
-  title_inactive_fg_color = "#ff0000"
-  title_receive_bg_color = "#c90047"
-  title_transmit_bg_color = "#00002c"
-  title_transmit_fg_color = "#02ff00"
   title_use_system_font = False
   window_state = maximise
 [keybindings]
@@ -25,7 +20,7 @@
   [[default]]
     background_color = "#263647"
     cursor_color = "#bbbbbb"
-    font = Source Code Pro for Powerline Regular 12
+    font = Source Code Pro Regular 12
     foreground_color = "#ffffff"
     palette = "#000000:#f9555f:#21b089:#fef02a:#589df6:#944d95:#1f9ee7:#bbbbbb:#555555:#fa8c8f:#35bb9a:#ffff55:#589df6:#e75699:#3979bc:#ffffff"
     scrollback_infinite = True

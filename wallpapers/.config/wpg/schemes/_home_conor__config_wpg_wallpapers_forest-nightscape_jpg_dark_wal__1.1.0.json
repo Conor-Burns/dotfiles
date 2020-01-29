@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/forest-nightscape.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#15101f",
+        "foreground": "#a4c1d1",
+        "cursor": "#a4c1d1"
+    },
+    "colors": {
+        "color0": "#15101f",
+        "color1": "#C99A74",
+        "color2": "#0E518C",
+        "color3": "#1F6DA0",
+        "color4": "#4C7692",
+        "color5": "#AC6C8C",
+        "color6": "#488AAF",
+        "color7": "#a4c1d1",
+        "color8": "#728792",
+        "color9": "#C99A74",
+        "color10": "#0E518C",
+        "color11": "#1F6DA0",
+        "color12": "#4C7692",
+        "color13": "#AC6C8C",
+        "color14": "#488AAF",
+        "color15": "#a4c1d1"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/alena-aenami-lights1k1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#091416",
+        "foreground": "#c6c1ac",
+        "cursor": "#c6c1ac"
+    },
+    "colors": {
+        "color0": "#091416",
+        "color1": "#0E6332",
+        "color2": "#634C2C",
+        "color3": "#0B5B44",
+        "color4": "#06704C",
+        "color5": "#19B553",
+        "color6": "#0B9A62",
+        "color7": "#c6c1ac",
+        "color8": "#8a8778",
+        "color9": "#0E6332",
+        "color10": "#634C2C",
+        "color11": "#0B5B44",
+        "color12": "#06704C",
+        "color13": "#19B553",
+        "color14": "#0B9A62",
+        "color15": "#c6c1ac"
+    }
+}

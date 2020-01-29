@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/art_star_tree_sky_space_93472_2560x1440.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A0A12",
+        "foreground": "#aebac6",
+        "cursor": "#aebac6"
+    },
+    "colors": {
+        "color0": "#0A0A12",
+        "color1": "#4A365D",
+        "color2": "#334A60",
+        "color3": "#564D6C",
+        "color4": "#374796",
+        "color5": "#625C96",
+        "color6": "#966DA9",
+        "color7": "#aebac6",
+        "color8": "#79828a",
+        "color9": "#4A365D",
+        "color10": "#334A60",
+        "color11": "#564D6C",
+        "color12": "#374796",
+        "color13": "#625C96",
+        "color14": "#966DA9",
+        "color15": "#aebac6"
+    }
+}

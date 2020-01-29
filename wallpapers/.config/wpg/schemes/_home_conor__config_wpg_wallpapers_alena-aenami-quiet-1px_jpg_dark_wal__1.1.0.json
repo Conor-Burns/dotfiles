@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/alena-aenami-quiet-1px.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#371a10",
+        "foreground": "#cfe1e3",
+        "cursor": "#cfe1e3"
+    },
+    "colors": {
+        "color0": "#371a10",
+        "color1": "#5CA1AF",
+        "color2": "#73B8C5",
+        "color3": "#77C3CD",
+        "color4": "#9FB3B4",
+        "color5": "#91BBC6",
+        "color6": "#8FCAD2",
+        "color7": "#cfe1e3",
+        "color8": "#909d9e",
+        "color9": "#5CA1AF",
+        "color10": "#73B8C5",
+        "color11": "#77C3CD",
+        "color12": "#9FB3B4",
+        "color13": "#91BBC6",
+        "color14": "#8FCAD2",
+        "color15": "#cfe1e3"
+    }
+}

@@ -75,16 +75,35 @@ bindsym $mod+space focus mode_toggle
 # Focus the parent container
 bindsym $mod+a focus parent
 
+#load mobile autorandr config
+bindsym XF86Display exec autorandr -l mobile
+
+#set monitors
+set $monitor1 eDP1
+set $monitor2 DP2-1 eDP1
+
 # Name the workspaces
-set $workspace1 1:
-set $workspace2 2:
-set $workspace3 3:
-set $workspace4 4:
-set $workspace5 5:
-set $workspace6 6:
-set $workspace7 7:
-set $workspace8 8:
-set $workspace9 9:
+set $workspace1 "1:"
+set $workspace2 "2:"
+set $workspace3 "3:"
+set $workspace4 "4:"
+set $workspace5 "5:"
+set $workspace6 "6:"
+set $workspace7 "7:"
+set $workspace8 "8:"
+set $workspace9 "9:"
+set $workspace10 "10:0"
+
+workspace $workspace1 output $monitor2
+workspace $workspace2 output $monitor2
+workspace $workspace3 output $monitor2
+workspace $workspace4 output $monitor2
+workspace $workspace5 output $monitor2
+workspace $workspace6 output $monitor1
+workspace $workspace7 output $monitor1
+workspace $workspace8 output $monitor1
+workspace $workspace9 output $monitor1
+workspace $workspace10 output $monitor1
 
 # Switch to workspace
 bindsym $mod+1 workspace $workspace1
@@ -96,6 +115,7 @@ bindsym $mod+6 workspace $workspace6
 bindsym $mod+7 workspace $workspace7
 bindsym $mod+8 workspace $workspace8
 bindsym $mod+9 workspace $workspace9
+bindsym $mod+0 workspace $workspace10
 
 # Move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $workspace1
@@ -107,6 +127,7 @@ bindsym $mod+Shift+6 move container to workspace $workspace6
 bindsym $mod+Shift+7 move container to workspace $workspace7
 bindsym $mod+Shift+8 move container to workspace $workspace8
 bindsym $mod+Shift+9 move container to workspace $workspace9
+bindsym $mod+Shift+0 move container to workspace $workspace10
 
 # Always open some programs on specified workspace
 for_window [class="Firefox"] move to workspace $workspace1
@@ -141,16 +162,21 @@ bindsym $mod+shift+x exec i3lock-fancy-rapid 5 3
 bindsym $mod+c exec terminator -e ~/.config/ranger/launch.sh
 
 # Multimedia Keys
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% #decrease sound volume
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle # mute sound
 # pause / play / next / previous
 bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
+# same but for laptop
+bindsym Shift+XF86AudioMute exec playerctl play-pause
+bindsym Shift+XF86RaiseVolume exec playerctl next
+bindsym Shift+XF86LowerVolume exec playerctl previous
 
 #screenshot
-bindsym $mod+Shift+s exec scrot
+bindsym --release $mod+Shift+Print exec date=$(date) && maim -s | mcli pipe cb/screens/"$date".png && mcli share download cb/screens/"$date".png | sed "s/Share:\ //" | tail -n2 | xsel -ib
+bindsym --release $mod+Shift+s exec date=$(date) && maim | mcli pipe cb/screens/"$date".png && mcli share download cb/screens/"$date".png | sed "s/Share:\ //" | tail -n2 | xsel -ib
 
 # Reload the configuration file
 bindsym $mod+Shift+c reload
@@ -202,11 +228,17 @@ client.placeholder          $magenta $magenta   $silver  $magenta
 
 # Startup programs
 exec --no-startup-id setxkbmap -model pc105 -layout de # Set the keyboard layout
-exec --no-startup-id compton --config ~/.config/compton/config
+exec_always --no-startup-id ~/.config/compton/launch.sh &amp; 
 exec_always --no-startup-id ~/.config/polybar/launch.sh &amp;
-exec_always --no-startup-id blueman-applet &amp;
-exec_always --no-startup-id pavucontrol &amp;
-exec_always --no-startup-id nautilus &amp;
-exec_always --no-startup-id firefox &amp;
-exec_always --no-startup-id spotify &amp;
-exec_always --no-startup-id terminator &amp;
+exec_always --no-startup-id wal -R &amp;
+exec --no-startup-id blueman-manager &amp;
+exec --no-startup-id blueman-applet &amp;
+exec --no-startup-id pavucontrol &amp;
+exec --no-startup-id nautilus &amp;
+exec --no-startup-id firefox &amp;
+exec --no-startup-id spotify &amp;
+exec --no-startup-id terminator &amp;
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &amp;
+exec --no-startup-id xfce4-power-manager &amp;
+exec --no-startup-id clipit &amp;
+exec --no-startup-id xautolock -time 10 -locker i3lock-fancy-rapid 5 3 &amp;

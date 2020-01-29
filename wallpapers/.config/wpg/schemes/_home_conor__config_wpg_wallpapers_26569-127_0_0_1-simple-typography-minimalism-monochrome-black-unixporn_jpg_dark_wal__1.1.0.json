@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/26569-127.0.0.1-simple-typography-minimalism-monochrome-black-unixporn.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#010101",
+        "foreground": "#cbcbcb",
+        "cursor": "#cbcbcb"
+    },
+    "colors": {
+        "color0": "#010101",
+        "color1": "#605E5F",
+        "color2": "#5E605F",
+        "color3": "#5F5F60",
+        "color4": "#5F6160",
+        "color5": "#6A6A6A",
+        "color6": "#898989",
+        "color7": "#cbcbcb",
+        "color8": "#8e8e8e",
+        "color9": "#605E5F",
+        "color10": "#5E605F",
+        "color11": "#5F5F60",
+        "color12": "#5F6160",
+        "color13": "#6A6A6A",
+        "color14": "#898989",
+        "color15": "#cbcbcb"
+    }
+}

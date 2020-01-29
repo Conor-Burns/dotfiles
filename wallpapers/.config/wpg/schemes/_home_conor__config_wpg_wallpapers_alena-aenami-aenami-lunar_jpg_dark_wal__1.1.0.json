@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/alena-aenami-aenami-lunar.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#081120",
+        "foreground": "#f3d8ad",
+        "cursor": "#f3d8ad"
+    },
+    "colors": {
+        "color0": "#081120",
+        "color1": "#6F445C",
+        "color2": "#8B3E57",
+        "color3": "#CE3E5A",
+        "color4": "#8E4258",
+        "color5": "#AB4A5B",
+        "color6": "#E45B5E",
+        "color7": "#f3d8ad",
+        "color8": "#aa9779",
+        "color9": "#6F445C",
+        "color10": "#8B3E57",
+        "color11": "#CE3E5A",
+        "color12": "#8E4258",
+        "color13": "#AB4A5B",
+        "color14": "#E45B5E",
+        "color15": "#f3d8ad"
+    }
+}

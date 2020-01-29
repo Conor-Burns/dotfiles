@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/alena-aenami-newwacom1-1-b-1k.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#040202",
+        "foreground": "#dfae9e",
+        "cursor": "#dfae9e"
+    },
+    "colors": {
+        "color0": "#040202",
+        "color1": "#A02D11",
+        "color2": "#CF3A0E",
+        "color3": "#A25934",
+        "color4": "#E65516",
+        "color5": "#8E5D42",
+        "color6": "#8D6346",
+        "color7": "#dfae9e",
+        "color8": "#9c796e",
+        "color9": "#A02D11",
+        "color10": "#CF3A0E",
+        "color11": "#A25934",
+        "color12": "#E65516",
+        "color13": "#8E5D42",
+        "color14": "#8D6346",
+        "color15": "#dfae9e"
+    }
+}

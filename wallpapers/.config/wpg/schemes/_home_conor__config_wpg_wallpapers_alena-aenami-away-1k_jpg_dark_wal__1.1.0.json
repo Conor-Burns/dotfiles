@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/alena-aenami-away-1k.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#051018",
+        "foreground": "#bcbac2",
+        "cursor": "#bcbac2"
+    },
+    "colors": {
+        "color0": "#051018",
+        "color1": "#6A7789",
+        "color2": "#867A8C",
+        "color3": "#AD7484",
+        "color4": "#E07983",
+        "color5": "#398497",
+        "color6": "#7B8294",
+        "color7": "#bcbac2",
+        "color8": "#838287",
+        "color9": "#6A7789",
+        "color10": "#867A8C",
+        "color11": "#AD7484",
+        "color12": "#E07983",
+        "color13": "#398497",
+        "color14": "#7B8294",
+        "color15": "#bcbac2"
+    }
+}

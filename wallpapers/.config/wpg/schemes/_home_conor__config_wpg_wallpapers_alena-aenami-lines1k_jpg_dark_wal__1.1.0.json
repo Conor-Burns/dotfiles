@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/alena-aenami-lines1k.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090C0F",
+        "foreground": "#c9c5bb",
+        "cursor": "#c9c5bb"
+    },
+    "colors": {
+        "color0": "#090C0F",
+        "color1": "#A65E56",
+        "color2": "#DA694E",
+        "color3": "#EB9B5F",
+        "color4": "#D0AE6F",
+        "color5": "#6D7D81",
+        "color6": "#708384",
+        "color7": "#c9c5bb",
+        "color8": "#8c8982",
+        "color9": "#A65E56",
+        "color10": "#DA694E",
+        "color11": "#EB9B5F",
+        "color12": "#D0AE6F",
+        "color13": "#6D7D81",
+        "color14": "#708384",
+        "color15": "#c9c5bb"
+    }
+}

@@ -1,5 +1,4 @@
-map bw shell wpg -s %f 
-map wp cd ~/.config/wpg/wallpapers 
+map bw shell cp %f ~/.config/wall.png
 set show_hidden true
 set preview_images true
 set draw_borders true

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/alena-aenami-solar-1k.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E1A29",
+        "foreground": "#cadde7",
+        "cursor": "#cadde7"
+    },
+    "colors": {
+        "color0": "#0E1A29",
+        "color1": "#D99BAB",
+        "color2": "#C9ADBC",
+        "color3": "#D0A6B8",
+        "color4": "#ECB1B4",
+        "color5": "#90B0CE",
+        "color6": "#B0A9C3",
+        "color7": "#cadde7",
+        "color8": "#8d9aa1",
+        "color9": "#D99BAB",
+        "color10": "#C9ADBC",
+        "color11": "#D0A6B8",
+        "color12": "#ECB1B4",
+        "color13": "#90B0CE",
+        "color14": "#B0A9C3",
+        "color15": "#cadde7"
+    }
+}

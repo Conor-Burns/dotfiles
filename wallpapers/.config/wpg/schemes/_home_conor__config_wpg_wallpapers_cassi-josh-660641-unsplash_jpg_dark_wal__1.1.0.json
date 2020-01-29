@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/cassi-josh-660641-unsplash.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#012A2F",
+        "foreground": "#cd9999",
+        "cursor": "#cd9999"
+    },
+    "colors": {
+        "color0": "#012A2F",
+        "color1": "#345C62",
+        "color2": "#4D5255",
+        "color3": "#6D5052",
+        "color4": "#555C61",
+        "color5": "#C83B3B",
+        "color6": "#8C4B4D",
+        "color7": "#cd9999",
+        "color8": "#8f6b6b",
+        "color9": "#345C62",
+        "color10": "#4D5255",
+        "color11": "#6D5052",
+        "color12": "#555C61",
+        "color13": "#C83B3B",
+        "color14": "#8C4B4D",
+        "color15": "#cd9999"
+    }
+}

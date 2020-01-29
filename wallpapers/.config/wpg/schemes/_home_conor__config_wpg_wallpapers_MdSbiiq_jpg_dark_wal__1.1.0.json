@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/MdSbiiq.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#070C19",
+        "foreground": "#a3d6f0",
+        "cursor": "#a3d6f0"
+    },
+    "colors": {
+        "color0": "#070C19",
+        "color1": "#254674",
+        "color2": "#2C5C99",
+        "color3": "#5852A4",
+        "color4": "#5B66C2",
+        "color5": "#8969E7",
+        "color6": "#5FA1ED",
+        "color7": "#a3d6f0",
+        "color8": "#7295a8",
+        "color9": "#254674",
+        "color10": "#2C5C99",
+        "color11": "#5852A4",
+        "color12": "#5B66C2",
+        "color13": "#8969E7",
+        "color14": "#5FA1ED",
+        "color15": "#a3d6f0"
+    }
+}

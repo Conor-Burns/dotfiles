@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/ejxFVS5.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#000001",
+        "foreground": "#7bace2",
+        "cursor": "#7bace2"
+    },
+    "colors": {
+        "color0": "#000001",
+        "color1": "#0E428E",
+        "color2": "#034E8E",
+        "color3": "#0C629B",
+        "color4": "#0359A9",
+        "color5": "#036CB2",
+        "color6": "#0472CA",
+        "color7": "#7bace2",
+        "color8": "#56789e",
+        "color9": "#0E428E",
+        "color10": "#034E8E",
+        "color11": "#0C629B",
+        "color12": "#0359A9",
+        "color13": "#036CB2",
+        "color14": "#0472CA",
+        "color15": "#7bace2"
+    }
+}
