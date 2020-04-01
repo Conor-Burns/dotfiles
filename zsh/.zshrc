@@ -10,6 +10,7 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+alias boot="sudo efibootmgr --disk /dev/sdb --part 1 --create --label "Arch Linux" --loader /vmlinuz-5.4-x86_64 --unicode 'root=PARTUUID=6ec94674-15fd-4ce6-a44d-b884502baded rw initrd=\initramfs-5.4-x86_64.img' --verbose"
 alias wifi-off="nmcli radio wifi off"
 alias wifi-on="nmcli radio wifi on"
 alias bw="wpg --backend wal -s ~/.config/wall.png"
