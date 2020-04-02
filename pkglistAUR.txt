@@ -1,9 +1,12 @@
+cava 0.6.1-1
 clipit 1.4.3-2
 compton-tryone-blackcapcoder-git v0.1_beta2.r129.gcdf1476-3
 gtk-theme-flat-color-git 20200312.90da48e-1
 i3lock-fancy-rapid-git r17.c67f09b-1
 nerd-fonts-fira-code 2.1.0-2
 polybar 3.4.2-1
+spicetify-cli 0.9.7-1
+spicetify-themes-git r4.ae45f4d-1
 spotify 1:1.1.10.546-4
 trizen 1:1.63-1
 wpgtk-git r783.2e009c3-1
