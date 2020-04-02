@@ -4,7 +4,7 @@ fg          = #002636
 bg	    = #e4e4e4
 
 [bar/top]
-monitor = eDP1
+monitor = eDP-1
 width = 100%
 height = 34
 
@@ -31,7 +31,7 @@ modules-right = wired-network wireless-network date
 modules-center = title
 
 [bar/bottom]
-monitor = eDP1
+monitor = eDP-1
 bottom = true
 width = 100%
 height = 30
@@ -54,7 +54,7 @@ modules-right = cpu memory temperature filesystem
 modules-center = music
 
 [bar/top2]
-monitor = DP2-1
+monitor = DP-2-1
 width = 100%
 height = 24
 
@@ -81,7 +81,7 @@ modules-right = wired-network wireless-network date
 modules-center = title
 
 [bar/bottom2]
-monitor = DP2-1
+monitor = DP-2-1
 bottom = true
 width = 100%
 height = 20
@@ -186,7 +186,7 @@ bar-used-empty-foreground = #444444
 
 [module/temperature]
 type = internal/temperature
-thermal-zone = 2
+thermal-zone = 1
 ramp-0 = 
 ramp-1 = 
 ramp-2  =

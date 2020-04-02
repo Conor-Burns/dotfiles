@@ -79,8 +79,8 @@ bindsym $mod+a focus parent
 bindsym XF86Display exec autorandr -l mobile
 
 #set monitors
-set $monitor1 eDP1
-set $monitor2 DP2-1 eDP1
+set $monitor1 eDP-1
+set $monitor2 DP-2-1 eDP-1
 
 # Name the workspaces
 set $workspace1 "1:"
@@ -227,7 +227,7 @@ client.urgent               $magenta $magenta   $silver  $magenta
 client.placeholder          $magenta $magenta   $silver  $magenta
 
 # Startup programs
-exec --no-startup-id setxkbmap -model pc105 -layout de # Set the keyboard layout
+exec_always --no-startup-id setxkbmap -model pc105 -layout de # Set the keyboard layout
 exec_always --no-startup-id ~/.config/compton/launch.sh &amp; 
 exec_always --no-startup-id ~/.config/polybar/launch.sh &amp;
 exec_always --no-startup-id wal -R &amp;

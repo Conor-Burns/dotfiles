@@ -87,6 +87,8 @@ opacity-rule = [ "70:class_g = 'Terminator'",
 #
 #################################
 
+transition-length = 1
+
 # Fade windows during opacity changes.
 fading = false;
 # The time between steps in a fade in milliseconds. (default 10).
