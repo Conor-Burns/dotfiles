@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/aenami_serenity_UltraHD.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0c1015",
+        "foreground": "#e4eceb",
+        "cursor": "#e4eceb"
+    },
+    "colors": {
+        "color0": "#0c1015",
+        "color1": "#B28C6D",
+        "color2": "#71878C",
+        "color3": "#A5A9A2",
+        "color4": "#C1C4BA",
+        "color5": "#CCD8D2",
+        "color6": "#D1E1DD",
+        "color7": "#e4eceb",
+        "color8": "#9fa5a4",
+        "color9": "#B28C6D",
+        "color10": "#71878C",
+        "color11": "#A5A9A2",
+        "color12": "#C1C4BA",
+        "color13": "#CCD8D2",
+        "color14": "#D1E1DD",
+        "color15": "#e4eceb"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/aenami_I'm_here_UltraHD.png",
+    "alpha": "100",
+    "special": {
+        "background": "#150c0c",
+        "foreground": "#a1c4d1",
+        "cursor": "#a1c4d1"
+    },
+    "colors": {
+        "color0": "#150c0c",
+        "color1": "#A75145",
+        "color2": "#B26D4C",
+        "color3": "#CA694A",
+        "color4": "#C48554",
+        "color5": "#DFA55C",
+        "color6": "#F2C962",
+        "color7": "#a1c4d1",
+        "color8": "#708992",
+        "color9": "#A75145",
+        "color10": "#B26D4C",
+        "color11": "#CA694A",
+        "color12": "#C48554",
+        "color13": "#DFA55C",
+        "color14": "#F2C962",
+        "color15": "#a1c4d1"
+    }
+}

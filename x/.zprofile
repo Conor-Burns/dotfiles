@@ -33,7 +33,7 @@ export PATH=$HOME/.local/bin:$PATH
 
 # startx when logged in
 if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
-  exec startx
+  exec startx &> /dev/null
 fi
 
 # Go

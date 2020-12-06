@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/London-Skyline.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E1113",
+        "foreground": "#a8bbc6",
+        "cursor": "#a8bbc6"
+    },
+    "colors": {
+        "color0": "#0E1113",
+        "color1": "#074A73",
+        "color2": "#314F62",
+        "color3": "#4E5358",
+        "color4": "#A77B4A",
+        "color5": "#1A638D",
+        "color6": "#517993",
+        "color7": "#a8bbc6",
+        "color8": "#75828a",
+        "color9": "#074A73",
+        "color10": "#314F62",
+        "color11": "#4E5358",
+        "color12": "#A77B4A",
+        "color13": "#1A638D",
+        "color14": "#517993",
+        "color15": "#a8bbc6"
+    }
+}

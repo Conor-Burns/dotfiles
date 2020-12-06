@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/aenami_otherside_UltraHD.png",
+    "alpha": "100",
+    "special": {
+        "background": "#150b15",
+        "foreground": "#b6b7ca",
+        "cursor": "#b6b7ca"
+    },
+    "colors": {
+        "color0": "#150b15",
+        "color1": "#9F5F5D",
+        "color2": "#F79A36",
+        "color3": "#DFAF5C",
+        "color4": "#395485",
+        "color5": "#5A5C89",
+        "color6": "#937491",
+        "color7": "#b6b7ca",
+        "color8": "#7f808d",
+        "color9": "#9F5F5D",
+        "color10": "#F79A36",
+        "color11": "#DFAF5C",
+        "color12": "#395485",
+        "color13": "#5A5C89",
+        "color14": "#937491",
+        "color15": "#b6b7ca"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/aenami_memories_UltraHD.png",
+    "alpha": "100",
+    "special": {
+        "background": "#081727",
+        "foreground": "#aebad7",
+        "cursor": "#aebad7"
+    },
+    "colors": {
+        "color0": "#081727",
+        "color1": "#3E5483",
+        "color2": "#4D689B",
+        "color3": "#556FA5",
+        "color4": "#6474A6",
+        "color5": "#B97393",
+        "color6": "#6E83BA",
+        "color7": "#aebad7",
+        "color8": "#798296",
+        "color9": "#3E5483",
+        "color10": "#4D689B",
+        "color11": "#556FA5",
+        "color12": "#6474A6",
+        "color13": "#B97393",
+        "color14": "#6E83BA",
+        "color15": "#aebad7"
+    }
+}

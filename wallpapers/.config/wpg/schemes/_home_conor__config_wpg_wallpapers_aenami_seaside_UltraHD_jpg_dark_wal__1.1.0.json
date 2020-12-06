@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/aenami_seaside_UltraHD.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090a0c",
+        "foreground": "#afb2ba",
+        "cursor": "#afb2ba"
+    },
+    "colors": {
+        "color0": "#090a0c",
+        "color1": "#5E4E57",
+        "color2": "#C2373B",
+        "color3": "#EC2B2D",
+        "color4": "#9C4F58",
+        "color5": "#ED5A52",
+        "color6": "#FB9366",
+        "color7": "#afb2ba",
+        "color8": "#7a7c82",
+        "color9": "#5E4E57",
+        "color10": "#C2373B",
+        "color11": "#EC2B2D",
+        "color12": "#9C4F58",
+        "color13": "#ED5A52",
+        "color14": "#FB9366",
+        "color15": "#afb2ba"
+    }
+}

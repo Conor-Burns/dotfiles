@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/aenami_guiding_light_UltraHD.png",
+    "alpha": "100",
+    "special": {
+        "background": "#214160",
+        "foreground": "#dcc3ce",
+        "cursor": "#dcc3ce"
+    },
+    "colors": {
+        "color0": "#214160",
+        "color1": "#165DAC",
+        "color2": "#5D5E97",
+        "color3": "#9F6993",
+        "color4": "#D46B8B",
+        "color5": "#1C87D8",
+        "color6": "#6699F1",
+        "color7": "#dcc3ce",
+        "color8": "#9a8890",
+        "color9": "#165DAC",
+        "color10": "#5D5E97",
+        "color11": "#9F6993",
+        "color12": "#D46B8B",
+        "color13": "#1C87D8",
+        "color14": "#6699F1",
+        "color15": "#dcc3ce"
+    }
+}

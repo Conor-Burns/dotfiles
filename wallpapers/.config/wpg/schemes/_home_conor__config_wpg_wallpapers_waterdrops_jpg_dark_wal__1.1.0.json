@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/waterdrops.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#080808",
+        "foreground": "#e9e6e6",
+        "cursor": "#e9e6e6"
+    },
+    "colors": {
+        "color0": "#080808",
+        "color1": "#85827D",
+        "color2": "#8E8E8E",
+        "color3": "#A39D9F",
+        "color4": "#ACACAC",
+        "color5": "#C2BBBC",
+        "color6": "#CDCDCD",
+        "color7": "#e9e6e6",
+        "color8": "#a3a1a1",
+        "color9": "#85827D",
+        "color10": "#8E8E8E",
+        "color11": "#A39D9F",
+        "color12": "#ACACAC",
+        "color13": "#C2BBBC",
+        "color14": "#CDCDCD",
+        "color15": "#e9e6e6"
+    }
+}

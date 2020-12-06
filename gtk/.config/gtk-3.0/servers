@@ -3,13 +3,13 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="sftp://root@conor-burns.com:222/" added="2018-11-26T19:09:23Z" modified="2019-07-21T21:20:16Z" visited="2019-07-21T21:20:16Z">
+  <bookmark href="sftp://root@conor-burns.com:222/" added="2018-11-26T19:09:23Z" modified="2020-04-05T19:22:36Z" visited="2020-04-05T19:22:36Z">
     <title>/ auf conor-burns.com</title>
     <info>
       <metadata owner="http://freedesktop.org">
         <bookmark:applications>
           <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2019-03-05T00:06:16Z" count="64"/>
-          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2019-07-21T21:20:16Z" count="55"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2020-04-05T19:22:36Z" count="56"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -20,6 +20,136 @@
       <metadata owner="http://freedesktop.org">
         <bookmark:applications>
           <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2019-06-10T20:00:06Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="dav://127.0.0.1:8888/" added="2020-07-11T14:19:01Z" modified="2020-07-11T15:08:13Z" visited="2020-07-11T15:08:13Z">
+    <title>/</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2020-07-11T15:08:13Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="dav://127.0.0.1:8888/testl" added="2020-07-11T15:06:19Z" modified="2020-07-11T15:06:19Z" visited="2020-07-11T15:06:19Z">
+    <title>testl</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2020-07-11T15:06:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="smb://10.10.11.11/" added="2020-07-19T20:13:55Z" modified="2020-12-05T12:44:51.790073Z" visited="2020-12-05T12:44:51.790070Z">
+    <title>Windows-Speicher auf 10.10.11.11</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2020-12-05T12:44:51.790071Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="dav://10.1.10.10:88/dav" added="2020-09-19T19:04:47.197427Z" modified="2020-09-19T19:04:47.197431Z" visited="2020-09-19T19:04:47.197428Z">
+    <title>dav</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2020-09-19T19:04:47.197429Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="dav://10.1.10.10:420/guest" added="2020-09-19T19:11:00.349622Z" modified="2020-09-19T19:11:00.349632Z" visited="2020-09-19T19:11:00.349624Z">
+    <title>guest</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2020-09-19T19:11:00.349627Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="dav://10.1.10.10:420/dav" added="2020-09-19T19:11:31.126810Z" modified="2020-09-19T19:11:31.126820Z" visited="2020-09-19T19:11:31.126812Z">
+    <title>dav</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2020-09-19T19:11:31.126815Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="davs://up.kriener.photography/dav" added="2020-09-19T20:00:39.285071Z" modified="2020-09-19T20:29:18.603121Z" visited="2020-09-19T20:29:18.603118Z">
+    <title>dav</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2020-09-19T20:29:18.603119Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="davs://node.kriener.photography/dav" added="2020-09-19T20:40:29.804836Z" modified="2020-09-19T20:40:29.804840Z" visited="2020-09-19T20:40:29.804836Z">
+    <title>dav</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2020-09-19T20:40:29.804837Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="davs://dav.kriener.photography/" added="2020-09-19T21:16:55.766693Z" modified="2020-09-19T21:16:55.766698Z" visited="2020-09-19T21:16:55.766694Z">
+    <title>/</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2020-09-19T21:16:55.766695Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="smb://nas.0xcb.dev/" added="2020-10-23T16:56:22.237262Z" modified="2020-10-23T16:56:22.237268Z" visited="2020-10-23T16:56:22.237264Z">
+    <title>Windows-Speicher auf nas.0xcb.dev</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2020-10-23T16:56:22.237265Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="smb://10.10.12.173/" added="2020-11-08T19:57:14.623170Z" modified="2020-11-09T19:00:11.070071Z" visited="2020-11-09T19:00:11.070067Z">
+    <title>Windows-Speicher auf 10.10.12.173</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2020-11-09T19:00:11.070068Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="smb://10.10.10.111/" added="2020-11-09T19:18:56.799692Z" modified="2020-11-09T19:18:56.799703Z" visited="2020-11-09T19:18:56.799694Z">
+    <title>Windows-Speicher auf 10.10.10.111</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2020-11-09T19:18:56.799697Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="ftp://admin@10.10.12.55:9999/" added="2020-12-04T19:01:05.805150Z" modified="2020-12-04T19:01:05.805157Z" visited="2020-12-04T19:01:05.805152Z">
+    <title>/ auf 10.10.12.55:9999</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2020-12-04T19:01:05.805153Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

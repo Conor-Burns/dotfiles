@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/aenami_stay_UltraHD.png",
+    "alpha": "100",
+    "special": {
+        "background": "#090F11",
+        "foreground": "#c4baba",
+        "cursor": "#c4baba"
+    },
+    "colors": {
+        "color0": "#090F11",
+        "color1": "#51666C",
+        "color2": "#6E7174",
+        "color3": "#8F393B",
+        "color4": "#966C6D",
+        "color5": "#CC595A",
+        "color6": "#897F80",
+        "color7": "#c4baba",
+        "color8": "#898282",
+        "color9": "#51666C",
+        "color10": "#6E7174",
+        "color11": "#8F393B",
+        "color12": "#966C6D",
+        "color13": "#CC595A",
+        "color14": "#897F80",
+        "color15": "#c4baba"
+    }
+}

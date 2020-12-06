@@ -1,118 +1,168 @@
-base-devel autoconf
-base-devel automake
-base-devel binutils
-base-devel bison
-base-devel fakeroot
-base-devel file
-base-devel findutils
-base-devel flex
-base-devel gawk
-base-devel gcc
-base-devel gettext
-base-devel grep
-base-devel groff
-base-devel gzip
-base-devel libtool
-base-devel m4
-base-devel make
-base-devel pacman
-base-devel patch
-base-devel pkgconf
-base-devel sed
-base-devel sudo
-base-devel texinfo
-base-devel which
-xfce4 thunar
-xfce4 thunar-volman
-gnome gvfs
-gnome networkmanager
-i3 i3-gaps
-lxde lxappearance
-xorg-drivers xf86-video-vesa
-xorg xf86-video-vesa
-xorg xorg-bdftopcf
-xorg xorg-docs
-xorg xorg-font-util
-xorg xorg-fonts-100dpi
-xorg xorg-fonts-75dpi
-xorg xorg-fonts-encodings
-xorg xorg-iceauth
-xorg xorg-luit
-xorg xorg-mkfontscale
-xorg xorg-server
-xorg xorg-server-common
-xorg xorg-server-devel
-xorg xorg-server-xephyr
-xorg xorg-server-xnest
-xorg xorg-server-xvfb
-xorg xorg-server-xwayland
-xorg xorg-sessreg
-xorg xorg-setxkbmap
-xorg xorg-smproxy
-xorg xorg-x11perf
-xorg xorg-xauth
-xorg xorg-xbacklight
-xorg xorg-xcmsdb
-xorg xorg-xcursorgen
-xorg xorg-xdpyinfo
-xorg xorg-xdriinfo
-xorg xorg-xev
-xorg xorg-xgamma
-xorg xorg-xhost
-xorg xorg-xinput
-xorg xorg-xkbcomp
-xorg xorg-xkbevd
-xorg xorg-xkbutils
-xorg xorg-xkill
-xorg xorg-xlsatoms
-xorg xorg-xlsclients
-xorg xorg-xmodmap
-xorg xorg-xpr
-xorg xorg-xprop
-xorg xorg-xrandr
-xorg xorg-xrdb
-xorg xorg-xrefresh
-xorg xorg-xset
-xorg xorg-xsetroot
-xorg xorg-xvinfo
-xorg xorg-xwd
-xorg xorg-xwininfo
-xorg xorg-xwud
-xorg-apps xorg-bdftopcf
-xorg-apps xorg-iceauth
-xorg-apps xorg-luit
-xorg-apps xorg-mkfontscale
-xorg-apps xorg-sessreg
-xorg-apps xorg-setxkbmap
-xorg-apps xorg-smproxy
-xorg-apps xorg-x11perf
-xorg-apps xorg-xauth
-xorg-apps xorg-xbacklight
-xorg-apps xorg-xcmsdb
-xorg-apps xorg-xcursorgen
-xorg-apps xorg-xdpyinfo
-xorg-apps xorg-xdriinfo
-xorg-apps xorg-xev
-xorg-apps xorg-xgamma
-xorg-apps xorg-xhost
-xorg-apps xorg-xinput
-xorg-apps xorg-xkbcomp
-xorg-apps xorg-xkbevd
-xorg-apps xorg-xkbutils
-xorg-apps xorg-xkill
-xorg-apps xorg-xlsatoms
-xorg-apps xorg-xlsclients
-xorg-apps xorg-xmodmap
-xorg-apps xorg-xpr
-xorg-apps xorg-xprop
-xorg-apps xorg-xrandr
-xorg-apps xorg-xrdb
-xorg-apps xorg-xrefresh
-xorg-apps xorg-xset
-xorg-apps xorg-xsetroot
-xorg-apps xorg-xvinfo
-xorg-apps xorg-xwd
-xorg-apps xorg-xwininfo
-xorg-apps xorg-xwud
-xorg-fonts xorg-font-util
-xorg-fonts xorg-fonts-encodings
+adapta-gtk-theme
+arandr
+arc-gtk-theme
+arc-icon-theme
+atom
+autoconf
+automake
+autorandr
+base
+binutils
+bison
+blueman
+bluez-utils
+bomberclone
+dhcpcd
+discord
+dosfstools
+efibootmgr
+fakeroot
+feh
+file
+findutils
+firefox
+flex
+gawk
+gcc
+gettext
+git
+gparted
+gptfdisk
+grep
+groff
+grub
+gvfs
+gzip
+htop
+i3-gaps
+jq
+lib32-alsa-lib
+lib32-alsa-plugins
+lib32-giflib
+lib32-gnutls
+lib32-gst-plugins-base-libs
+lib32-gtk3
+lib32-libgcrypt
+lib32-libgpg-error
+lib32-libjpeg-turbo
+lib32-libldap
+lib32-libpng
+lib32-libpulse
+lib32-libva
+lib32-libxcomposite
+lib32-libxinerama
+lib32-libxslt
+lib32-mpg123
+lib32-ncurses
+lib32-ocl-icd
+lib32-openal
+lib32-sqlite
+lib32-v4l-utils
+lib32-vulkan-icd-loader
+libnma
+libtool
+linux-firmware
+linux-headers
+linux-zen
+lsof
+lutris
+lxappearance
+m4
+maim
+make
+minio-client
+mpg123
+nano
+nautilus
+neofetch
+network-manager-applet
+networkmanager
+ocl-icd
+openal
+openssh
+p7zip
+pacman
+pacman-contrib
+papirus-icon-theme
+patch
+pavucontrol
+pkgconf
+polkit-gnome
+pulseaudio
+pulseaudio-alsa
+pulseaudio-bluetooth
+python-dbus
+ranger
+rofi
+sed
+stow
+sudo
+terminator
+texinfo
+thefuck
+tree
+ttf-dejavu
+unzip
+vulkan-intel
+w3m
+which
+wine-staging
+xcursor-neutral
+xcursor-themes
+xf86-video-vesa
+xorg-bdftopcf
+xorg-docs
+xorg-font-util
+xorg-fonts-100dpi
+xorg-fonts-75dpi
+xorg-fonts-encodings
+xorg-iceauth
+xorg-luit
+xorg-mkfontscale
+xorg-server
+xorg-server-common
+xorg-server-devel
+xorg-server-xephyr
+xorg-server-xnest
+xorg-server-xvfb
+xorg-server-xwayland
+xorg-sessreg
+xorg-setxkbmap
+xorg-smproxy
+xorg-x11perf
+xorg-xauth
+xorg-xbacklight
+xorg-xcmsdb
+xorg-xcursorgen
+xorg-xdpyinfo
+xorg-xdriinfo
+xorg-xev
+xorg-xgamma
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xkbcomp
+xorg-xkbevd
+xorg-xkbutils
+xorg-xkill
+xorg-xlsatoms
+xorg-xlsclients
+xorg-xmodmap
+xorg-xpr
+xorg-xprop
+xorg-xrandr
+xorg-xrdb
+xorg-xrefresh
+xorg-xset
+xorg-xsetroot
+xorg-xvinfo
+xorg-xwd
+xorg-xwininfo
+xorg-xwud
+xsel
+yubico-pam
+yubikey-manager
+yubikey-touch-detector
+yubioath-desktop
+zip
+zsh

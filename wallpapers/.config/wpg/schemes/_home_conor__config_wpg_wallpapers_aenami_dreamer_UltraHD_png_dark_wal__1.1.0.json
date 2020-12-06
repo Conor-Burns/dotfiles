@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/aenami_dreamer_UltraHD.png",
+    "alpha": "100",
+    "special": {
+        "background": "#060B12",
+        "foreground": "#e5a8b0",
+        "cursor": "#e5a8b0"
+    },
+    "colors": {
+        "color0": "#060B12",
+        "color1": "#4E5A68",
+        "color2": "#605D6B",
+        "color3": "#6F6975",
+        "color4": "#B73648",
+        "color5": "#8F6B77",
+        "color6": "#A26170",
+        "color7": "#e5a8b0",
+        "color8": "#a0757b",
+        "color9": "#4E5A68",
+        "color10": "#605D6B",
+        "color11": "#6F6975",
+        "color12": "#B73648",
+        "color13": "#8F6B77",
+        "color14": "#A26170",
+        "color15": "#e5a8b0"
+    }
+}

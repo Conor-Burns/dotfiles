@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/aenami_away_in_silence_UltraHD.png",
+    "alpha": "100",
+    "special": {
+        "background": "#041017",
+        "foreground": "#99c1cc",
+        "cursor": "#99c1cc"
+    },
+    "colors": {
+        "color0": "#041017",
+        "color1": "#126D84",
+        "color2": "#6F798B",
+        "color3": "#857A8B",
+        "color4": "#AC7585",
+        "color5": "#E27A84",
+        "color6": "#7A8293",
+        "color7": "#99c1cc",
+        "color8": "#6b878e",
+        "color9": "#126D84",
+        "color10": "#6F798B",
+        "color11": "#857A8B",
+        "color12": "#AC7585",
+        "color13": "#E27A84",
+        "color14": "#7A8293",
+        "color15": "#99c1cc"
+    }
+}

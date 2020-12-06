@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/aenami_top_of_the_worlds_UltraHD.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0F0F2A",
+        "foreground": "#f5e3dd",
+        "cursor": "#f5e3dd"
+    },
+    "colors": {
+        "color0": "#0F0F2A",
+        "color1": "#A34C95",
+        "color2": "#D05D9E",
+        "color3": "#F989A3",
+        "color4": "#FCADB0",
+        "color5": "#FCC6BC",
+        "color6": "#FDBDC3",
+        "color7": "#f5e3dd",
+        "color8": "#ab9e9a",
+        "color9": "#A34C95",
+        "color10": "#D05D9E",
+        "color11": "#F989A3",
+        "color12": "#FCADB0",
+        "color13": "#FCC6BC",
+        "color14": "#FDBDC3",
+        "color15": "#f5e3dd"
+    }
+}

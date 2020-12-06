@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/aenami_a_quiet_mind_UltraHD.png",
+    "alpha": "100",
+    "special": {
+        "background": "#371b10",
+        "foreground": "#c8dee2",
+        "cursor": "#c8dee2"
+    },
+    "colors": {
+        "color0": "#371b10",
+        "color1": "#3A92A4",
+        "color2": "#5D9CAE",
+        "color3": "#74B4C5",
+        "color4": "#9FB2B4",
+        "color5": "#8ABAC9",
+        "color6": "#AAB9C4",
+        "color7": "#c8dee2",
+        "color8": "#8c9b9e",
+        "color9": "#3A92A4",
+        "color10": "#5D9CAE",
+        "color11": "#74B4C5",
+        "color12": "#9FB2B4",
+        "color13": "#8ABAC9",
+        "color14": "#AAB9C4",
+        "color15": "#c8dee2"
+    }
+}

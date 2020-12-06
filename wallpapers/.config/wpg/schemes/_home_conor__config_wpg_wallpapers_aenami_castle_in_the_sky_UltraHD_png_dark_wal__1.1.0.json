@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/aenami_castle_in_the_sky_UltraHD.png",
+    "alpha": "100",
+    "special": {
+        "background": "#040E19",
+        "foreground": "#becdd0",
+        "cursor": "#becdd0"
+    },
+    "colors": {
+        "color0": "#040E19",
+        "color1": "#CD9668",
+        "color2": "#0E559F",
+        "color3": "#255CA9",
+        "color4": "#8E5F88",
+        "color5": "#4C90B6",
+        "color6": "#939897",
+        "color7": "#becdd0",
+        "color8": "#858f91",
+        "color9": "#CD9668",
+        "color10": "#0E559F",
+        "color11": "#255CA9",
+        "color12": "#8E5F88",
+        "color13": "#4C90B6",
+        "color14": "#939897",
+        "color15": "#becdd0"
+    }
+}

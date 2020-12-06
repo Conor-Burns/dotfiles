@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/aenami_any_minute_now_UltraHD.png",
+    "alpha": "100",
+    "special": {
+        "background": "#001923",
+        "foreground": "#efc3af",
+        "cursor": "#efc3af"
+    },
+    "colors": {
+        "color0": "#001923",
+        "color1": "#71595B",
+        "color2": "#BC493C",
+        "color3": "#A55D54",
+        "color4": "#D46950",
+        "color5": "#BD8971",
+        "color6": "#EF926E",
+        "color7": "#efc3af",
+        "color8": "#a7887a",
+        "color9": "#71595B",
+        "color10": "#BC493C",
+        "color11": "#A55D54",
+        "color12": "#D46950",
+        "color13": "#BD8971",
+        "color14": "#EF926E",
+        "color15": "#efc3af"
+    }
+}

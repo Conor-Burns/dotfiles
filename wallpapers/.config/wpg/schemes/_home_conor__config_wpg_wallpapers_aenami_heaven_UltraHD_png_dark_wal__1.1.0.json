@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/aenami_heaven_UltraHD.png",
+    "alpha": "100",
+    "special": {
+        "background": "#041327",
+        "foreground": "#efbeb3",
+        "cursor": "#efbeb3"
+    },
+    "colors": {
+        "color0": "#041327",
+        "color1": "#624A6F",
+        "color2": "#A12454",
+        "color3": "#F9184E",
+        "color4": "#E32251",
+        "color5": "#99496C",
+        "color6": "#F85858",
+        "color7": "#efbeb3",
+        "color8": "#a7857d",
+        "color9": "#624A6F",
+        "color10": "#A12454",
+        "color11": "#F9184E",
+        "color12": "#E32251",
+        "color13": "#99496C",
+        "color14": "#F85858",
+        "color15": "#efbeb3"
+    }
+}

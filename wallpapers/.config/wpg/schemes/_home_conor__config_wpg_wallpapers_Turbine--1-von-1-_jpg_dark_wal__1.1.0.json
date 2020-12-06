@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/Turbine--1-von-1-.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#030303",
+        "foreground": "#dddddd",
+        "cursor": "#dddddd"
+    },
+    "colors": {
+        "color0": "#030303",
+        "color1": "#575757",
+        "color2": "#676767",
+        "color3": "#777777",
+        "color4": "#878787",
+        "color5": "#989898",
+        "color6": "#AEAEAE",
+        "color7": "#dddddd",
+        "color8": "#9a9a9a",
+        "color9": "#575757",
+        "color10": "#676767",
+        "color11": "#777777",
+        "color12": "#878787",
+        "color13": "#989898",
+        "color14": "#AEAEAE",
+        "color15": "#dddddd"
+    }
+}

@@ -11,13 +11,16 @@ gaps outer 20
 for_window [class="^.*"] border pixel 4
 
 # Font for window titles.
-font pango:FuraCode Nerd Font 11
+font pango:FiraCode Nerd Font Mono 11
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # Start a terminal
 bindsym $mod+Return exec terminator
+
+#One way paste xdotool and xclip for noVNC
+bindsym --release $mod+p exec --no-startup-id xdotool type --clearmodifiers "$(xclip -o -selection clipboard)"
 
 # Kill focused window
 bindsym $mod+Shift+q kill
@@ -76,11 +79,13 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 #load mobile autorandr config
-bindsym XF86Display exec autorandr -l mobile
+bindsym $mod+Shift+s exec autorandr -l mobile
+bindsym $mod+Shift+d exec autorandr -l dock
 
 #set monitors
-set $monitor1 eDP-1
-set $monitor2 DP-2-1 eDP-1
+set $monitor1 eDP1
+set $monitor2 DP2-2 eDP1
+set $monitor3 DP2-1 DP2-2 eDP1
 
 # Name the workspaces
 set $workspace1 "1:"
@@ -96,9 +101,9 @@ set $workspace10 "10:0"
 
 workspace $workspace1 output $monitor2
 workspace $workspace2 output $monitor2
-workspace $workspace3 output $monitor2
+workspace $workspace3 output $monitor3
 workspace $workspace4 output $monitor2
-workspace $workspace5 output $monitor2
+workspace $workspace5 output $monitor3
 workspace $workspace6 output $monitor1
 workspace $workspace7 output $monitor1
 workspace $workspace8 output $monitor1
@@ -175,8 +180,8 @@ bindsym Shift+XF86RaiseVolume exec playerctl next
 bindsym Shift+XF86LowerVolume exec playerctl previous
 
 #screenshot
-bindsym --release $mod+Shift+Print exec date=$(date) && maim -s | mcli pipe cb/screens/"$date".png && mcli share download cb/screens/"$date".png | sed "s/Share:\ //" | tail -n2 | xsel -ib
-bindsym --release $mod+Shift+s exec date=$(date) && maim | mcli pipe cb/screens/"$date".png && mcli share download cb/screens/"$date".png | sed "s/Share:\ //" | tail -n2 | xsel -ib
+bindsym --release $mod+Shift+Print exec ~/.config/i3/screen.sh
+bindsym --release $mod+s exec ~/.config/i3/screen-full.sh
 
 # Reload the configuration file
 bindsym $mod+Shift+c reload
@@ -227,18 +232,16 @@ client.urgent               $magenta $magenta   $silver  $magenta
 client.placeholder          $magenta $magenta   $silver  $magenta
 
 # Startup programs
-exec_always --no-startup-id setxkbmap -model pc105 -layout de # Set the keyboard layout
-exec_always --no-startup-id ~/.config/compton/launch.sh &amp; 
 exec_always --no-startup-id ~/.config/polybar/launch.sh &amp;
+exec_always --no-startup-id setxkbmap de # Set the keyboard layout
+exec_always --no-startup-id ~/.config/compton/launch.sh &amp; 
 exec_always --no-startup-id wal -R &amp;
-exec --no-startup-id blueman-manager &amp;
 exec --no-startup-id blueman-applet &amp;
 exec --no-startup-id pavucontrol &amp;
 exec --no-startup-id nautilus &amp;
 exec --no-startup-id firefox &amp;
-exec --no-startup-id spotify &amp;
+#exec --no-startup-id spotify &amp;
 exec --no-startup-id terminator &amp;
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &amp;
-exec --no-startup-id xfce4-power-manager &amp;
 exec --no-startup-id clipit &amp;
-exec --no-startup-id xautolock -time 10 -locker i3lock-fancy-rapid 5 3 &amp;
+exec --no-startup-id xfce4-power-manager &amp;

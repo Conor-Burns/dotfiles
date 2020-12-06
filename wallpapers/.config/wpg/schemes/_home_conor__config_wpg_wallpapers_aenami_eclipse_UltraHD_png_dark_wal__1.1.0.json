@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/aenami_eclipse_UltraHD.png",
+    "alpha": "100",
+    "special": {
+        "background": "#090A14",
+        "foreground": "#ec9ea0",
+        "cursor": "#ec9ea0"
+    },
+    "colors": {
+        "color0": "#090A14",
+        "color1": "#753341",
+        "color2": "#8F2F3B",
+        "color3": "#953242",
+        "color4": "#CF3A46",
+        "color5": "#964543",
+        "color6": "#AC4C46",
+        "color7": "#ec9ea0",
+        "color8": "#a56e70",
+        "color9": "#753341",
+        "color10": "#8F2F3B",
+        "color11": "#953242",
+        "color12": "#CF3A46",
+        "color13": "#964543",
+        "color14": "#AC4C46",
+        "color15": "#ec9ea0"
+    }
+}
