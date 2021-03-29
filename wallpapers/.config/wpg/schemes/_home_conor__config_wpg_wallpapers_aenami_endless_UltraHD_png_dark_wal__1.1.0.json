@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/aenami_endless_UltraHD.png",
+    "alpha": "100",
+    "special": {
+        "background": "#181b2e",
+        "foreground": "#eacadb",
+        "cursor": "#eacadb"
+    },
+    "colors": {
+        "color0": "#181b2e",
+        "color1": "#78A5EF",
+        "color2": "#9C88B5",
+        "color3": "#E293B4",
+        "color4": "#9390D0",
+        "color5": "#A6A0D9",
+        "color6": "#8AAFF5",
+        "color7": "#eacadb",
+        "color8": "#a38d99",
+        "color9": "#78A5EF",
+        "color10": "#9C88B5",
+        "color11": "#E293B4",
+        "color12": "#9390D0",
+        "color13": "#A6A0D9",
+        "color14": "#8AAFF5",
+        "color15": "#eacadb"
+    }
+}

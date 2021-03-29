@@ -7,34 +7,12 @@ export VISUAL=emacs
 export TERM="xterm-256color"
 export GPG_TTY=$(tty)
 
-# Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-    export EDITOR='vim'
-else
-    export EDITOR='nano'
-fi
+export EDITOR='nano'
 
 export QT_QPA_PLATFORMTHEME=gtk2
-
-# Ruby gems
-#PATH="$PATH:$(ruby -e 'print Gem.user_dir')/bin"
-#export GEM_HOME=$HOME/.gem
-
-# Rbenv
-#export PATH="$HOME/.rbenv/bin:$PATH"
-#eval "$(rbenv init -)"
-
-# Node.js
-PATH="$HOME/.node_modules/bin:$PATH"
-export npm_config_prefix=~/.node_modules
-
-# PIP
-export PATH=$HOME/.local/bin:$PATH
 
 # startx when logged in
 if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
   exec startx &> /dev/null
 fi
 
-# Go
-export PATH="$PATH:$HOME/go/bin"

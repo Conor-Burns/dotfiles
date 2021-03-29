@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/aenami_northern_lights_UltraHD.png",
+    "alpha": "100",
+    "special": {
+        "background": "#081416",
+        "foreground": "#c6c0ab",
+        "cursor": "#c6c0ab"
+    },
+    "colors": {
+        "color0": "#081416",
+        "color1": "#614F2F",
+        "color2": "#0A5B45",
+        "color3": "#03704C",
+        "color4": "#018B56",
+        "color5": "#17B453",
+        "color6": "#0BA269",
+        "color7": "#c6c0ab",
+        "color8": "#8a8677",
+        "color9": "#614F2F",
+        "color10": "#0A5B45",
+        "color11": "#03704C",
+        "color12": "#018B56",
+        "color13": "#17B453",
+        "color14": "#0BA269",
+        "color15": "#c6c0ab"
+    }
+}

@@ -26,7 +26,7 @@ bindsym --release $mod+p exec --no-startup-id xdotool type --clearmodifiers "$(x
 bindsym $mod+Shift+q kill
 
 # Start rofi
-bindsym $mod+d exec rofi -show drun
+bindsym $mod+d exec rofi -no-lazy-grab -show drun -modi drun -theme $HOME/.config/rofi/blurry
 
 # Random wallpaper
 bindsym $mod+w exec wpg -m
@@ -82,10 +82,15 @@ bindsym $mod+a focus parent
 bindsym $mod+Shift+s exec autorandr -l mobile
 bindsym $mod+Shift+d exec autorandr -l dock
 
-#set monitors
-set $monitor1 eDP1
-set $monitor2 DP2-2 eDP1
-set $monitor3 DP2-1 DP2-2 eDP1
+#set monitors (2)
+#set $monitor1 eDP-1
+#set $monitor2 DP-2-2 eDP-1
+#set $monitor3 DP-2-2 eDP-1
+
+#set monitors (3)
+set $monitor1 eDP-1
+set $monitor2 DP-2-2 eDP-1
+set $monitor3 DP-2-1 DP-2-2 eDP-1
 
 # Name the workspaces
 set $workspace1 "1:"
@@ -234,14 +239,15 @@ client.placeholder          $magenta $magenta   $silver  $magenta
 # Startup programs
 exec_always --no-startup-id ~/.config/polybar/launch.sh &amp;
 exec_always --no-startup-id setxkbmap de # Set the keyboard layout
-exec_always --no-startup-id ~/.config/compton/launch.sh &amp; 
 exec_always --no-startup-id wal -R &amp;
+exec --no-startup-id picom --config ~/.config/picom/picom.conf
 exec --no-startup-id blueman-applet &amp;
 exec --no-startup-id pavucontrol &amp;
 exec --no-startup-id nautilus &amp;
 exec --no-startup-id firefox &amp;
-#exec --no-startup-id spotify &amp;
+exec --no-startup-id spotify &amp;
 exec --no-startup-id terminator &amp;
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &amp;
 exec --no-startup-id clipit &amp;
 exec --no-startup-id xfce4-power-manager &amp;
+exec --no-startup-id xss-lock -- i3lock-fancy-rapid 5 3

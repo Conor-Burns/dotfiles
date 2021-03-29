@@ -114,12 +114,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="smb://nas.0xcb.dev/" added="2020-10-23T16:56:22.237262Z" modified="2020-10-23T16:56:22.237268Z" visited="2020-10-23T16:56:22.237264Z">
+  <bookmark href="smb://nas.0xcb.dev/" added="2020-10-23T16:56:22.237262Z" modified="2021-01-27T19:28:53.560255Z" visited="2021-01-27T19:28:53.560249Z">
     <title>Windows-Speicher auf nas.0xcb.dev</title>
     <info>
       <metadata owner="http://freedesktop.org">
         <bookmark:applications>
-          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2020-10-23T16:56:22.237265Z" count="1"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2021-01-27T19:28:53.560251Z" count="4"/>
         </bookmark:applications>
       </metadata>
     </info>

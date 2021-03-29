@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/aenami_calm_before_the_storm_UltraHD.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0f1019",
+        "foreground": "#f4c578",
+        "cursor": "#f4c578"
+    },
+    "colors": {
+        "color0": "#0f1019",
+        "color1": "#AB2B1E",
+        "color2": "#8A3827",
+        "color3": "#E80E19",
+        "color4": "#A84822",
+        "color5": "#CF5215",
+        "color6": "#E4650C",
+        "color7": "#f4c578",
+        "color8": "#aa8954",
+        "color9": "#AB2B1E",
+        "color10": "#8A3827",
+        "color11": "#E80E19",
+        "color12": "#A84822",
+        "color13": "#CF5215",
+        "color14": "#E4650C",
+        "color15": "#f4c578"
+    }
+}

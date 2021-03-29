@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/aenami_close_to_the_sun_UltraHD.png",
+    "alpha": "100",
+    "special": {
+        "background": "#080D18",
+        "foreground": "#a2aebb",
+        "cursor": "#a2aebb"
+    },
+    "colors": {
+        "color0": "#080D18",
+        "color1": "#5A5D70",
+        "color2": "#F5523B",
+        "color3": "#AA3441",
+        "color4": "#9F5C60",
+        "color5": "#DC6052",
+        "color6": "#C88E70",
+        "color7": "#a2aebb",
+        "color8": "#717982",
+        "color9": "#5A5D70",
+        "color10": "#F5523B",
+        "color11": "#AA3441",
+        "color12": "#9F5C60",
+        "color13": "#DC6052",
+        "color14": "#C88E70",
+        "color15": "#a2aebb"
+    }
+}

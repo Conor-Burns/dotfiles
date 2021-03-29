@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/conor/.config/wpg/wallpapers/aenami_stars_and_you_UltraHD.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0F1719",
+        "foreground": "#a1c6bd",
+        "cursor": "#a1c6bd"
+    },
+    "colors": {
+        "color0": "#0F1719",
+        "color1": "#5F5353",
+        "color2": "#A23536",
+        "color3": "#914C51",
+        "color4": "#AD5254",
+        "color5": "#D85B59",
+        "color6": "#4A8779",
+        "color7": "#a1c6bd",
+        "color8": "#708a84",
+        "color9": "#5F5353",
+        "color10": "#A23536",
+        "color11": "#914C51",
+        "color12": "#AD5254",
+        "color13": "#D85B59",
+        "color14": "#4A8779",
+        "color15": "#a1c6bd"
+    }
+}

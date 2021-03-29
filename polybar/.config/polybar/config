@@ -4,7 +4,7 @@ fg          = #002636
 bg	    = #e4e4e4
 
 [bar/top]
-monitor = eDP1
+monitor = eDP-1
 width = 100%
 height = 34
 
@@ -31,7 +31,7 @@ modules-right = wired-network wireless-network date
 modules-center = title
 
 [bar/bottom]
-monitor = eDP1
+monitor = eDP-1
 bottom = true
 width = 100%
 height = 30
@@ -54,7 +54,7 @@ modules-right = cpu memory temperature filesystem
 modules-center = music
 
 [bar/top2]
-monitor = DP2-2
+monitor = DP-2-2
 width = 100%
 height = 24
 
@@ -81,7 +81,7 @@ modules-right = wired-network wireless-network date
 modules-center = title
 
 [bar/bottom2]
-monitor = DP2-2
+monitor = DP-2-2
 bottom = true
 width = 100%
 height = 20
@@ -103,7 +103,7 @@ modules-left = powermenu pulseaudio battery openweathermap updates
 modules-right = temperature filesystem
 modules-center = music
 [bar/top3]
-monitor = DP2-1
+monitor = DP-2-1
 width = 100%
 height = 24
 
@@ -129,7 +129,7 @@ modules-right = date
 modules-center = title
 
 [bar/bottom3]
-monitor = DP2-1
+monitor = DP-2-1
 bottom = true
 width = 100%
 height = 20
@@ -151,6 +151,8 @@ modules-left = ping ssh
 modules-right = cpu memory
 
 [module/i3]
+margin-top = 0
+margin-bottom = 0
 type = internal/i3
 ws-icon-1 = 
 ws-icon-2 = 
@@ -233,21 +235,21 @@ bar-used-empty-foreground = #444444
 
 [module/temperature]
 type = internal/temperature
-thermal-zone = 1
+thermal-zone = 2
 ramp-0 = 
 ramp-1 = 
 ramp-2  =
 
 [module/wireless-network]
 type = internal/network
-interface = wlp4s0
+interface = wlp3s0
 interval = 3.0
 label-connected = %{A1:nm-connection-editor:}%essid%  %signal%%{A} %local_ip% %upspeed:2% %downspeed:2% %{T-}
 label-disconnected-foreground = #66
 
 [module/wired-network]
 type = internal/network
-interface = enp0s25
+interface = eno0
 interval = 3.0
 label-connected = %{A1:nm-connection-editor:}%{A} %{T3}%local_ip% %upspeed:2% %downspeed:2%%{T-}
 label-disconnected-foreground = #66
@@ -347,10 +349,12 @@ format-charging = <label-charging>
 
 [module/music]
 type = custom/script
-exec = ~/.config/polybar/player-mpris-tail.py -f '{icon} {artist} - {title}'
+exec = ~/.config/polybar/player-mpris-tail.py -f ' {artist} - {title}'
 tail = true
 click-left = ~/.config/polybar/player-mpris-tail.py previous &
 click-right = ~/.config/polybar/player-mpris-tail.py next &
 click-middle = ~/.config/polybar/player-mpris-tail.py play-pause &
 
-; vim:ft=dosini
+[settings]
+pseudo-transparency = true
+screenchange-reload = true
